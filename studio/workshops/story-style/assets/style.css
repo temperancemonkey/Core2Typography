@@ -1,0 +1,47 @@
+/* GENERAL STYLES */
+
+body{
+    background-color: rgb(178, 44, 17);
+    color: rgb(241, 94, 61);
+    padding: 30px;
+    font-size: 50px;
+
+}
+
+::selection{
+    color: coral;
+    text-shadow:0 0 10px coral;
+}
+
+/* NAV */
+
+.nav{
+    margin-bottom: 30px;
+    user-select:none;
+}
+
+.nav-link{
+    background-color: rgba(220, 50, 20, 0.323);
+    padding: 5px 15px;
+    border-radius: 20%;
+}
+
+.nav-link:hover{
+    background-color: rgba(255, 127, 80, 0.475);
+    box-shadow: 0 0 10px coral;
+}
+
+/* MAIN */
+
+.main{
+    font-size: 11rem;
+}
+
+.jiffylube:hover{
+    color: maroon;
+}
+
+.home .main{
+    font-size: 22rem;
+    line-height: 80%;
+}

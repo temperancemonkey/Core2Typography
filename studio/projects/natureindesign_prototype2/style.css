@@ -1,0 +1,153 @@
+body{
+  background-color: rgba(245, 242, 67, 0.82);
+}
+
+
+.tableofcontents{
+  font-family: "Atkinson Hyperlegible Mono", serif;
+  color: black;
+  text-decoration: none;
+  font-size: 7px;
+  display: inline-flex
+
+}
+
+.tableofcontents:hover{
+  color: black;
+}
+
+
+.header {
+    font-family: "Atkinson Hyperlegible Mono", serif;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(245, 242, 67, 0.82);
+    transform: translate(-50%, -50%);
+    
+  }
+
+  .header-text:nth-child(1){
+    animation: rotateAndMove 12s infinite; 
+    background-color: rgba(247, 247, 29, 0.82);
+    mix-blend-mode: multiply;
+  }
+  
+  @keyframes rotateAndMove {
+    0% {
+      transform: translate(-50%, -50%,) rotate(0deg);
+    }
+    50% {
+      transform: translate(-50%, -50%) rotate(360deg);
+    }
+    100% {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+  }
+
+  .header-text:nth-child(2) {
+    animation: rotateAndMove2 20s infinite; 
+    color: rgb(242, 0, 255);
+    mix-blend-mode: multiply;
+
+  }
+  
+  @keyframes rotateAndMove2 {
+    0% {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+    50% {
+      transform: translate(-50%, -50%) rotate(360deg);
+    }
+    100% {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+  }
+  
+  .header-text:nth-child(3) {
+    animation: rotateAndMove3 8s infinite; 
+    color: rgb(255, 98, 31);
+    mix-blend-mode: multiply;
+  }
+  
+  @keyframes rotateAndMove3 {
+    0% {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+    50% {
+      transform: translate(-50%, -50%) rotate(360deg);
+    }
+    100% {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+  } */
+
+  /* .header-text:nth-child(4) {
+    animation: rotateAndMove 16s infinite; 
+    color: rgb(246, 255, 77);
+    mix-blend-mode: multiply;
+  } 
+  
+  @keyframes rotateAndMove4 {
+    0% {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+    50% {
+      transform: translate(-50%, -50%) rotate(360deg);
+    }
+    100% {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+  } */
+
+
+  .header-text:nth-child(5) {
+    animation: rotateAndMove 10s infinite; 
+    color: rgb(127, 229, 32);
+    mix-blend-mode: multiply;
+  } 
+  
+  @keyframes rotateAndMove5 {
+    0% {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+    50% {
+      transform: translate(-50%, -50%) rotate(360deg);
+    }
+    100% {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+  }
+
+
+  .header-text:nth-child(6) {
+    animation: rotateAndMove 8s infinite; 
+    color: rgb(255, 105, 252);
+    mix-blend-mode: multiply;
+  } 
+  
+  @keyframes rotateAndMove6 {
+    0% {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+    50% {
+      transform: translate(-50%, -50%) rotate(360deg);
+    }
+    100% {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+  }
+  
+  .header.one {
+    font-size: 30px
+  }
+  
+  .header.two {
+    font-size: 10px
+  }
