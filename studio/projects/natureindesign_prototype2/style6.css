@@ -4,7 +4,7 @@ body{
 
 
 .forward{
-    position: absolute;
+    position: fixed;
     height: 10vh;
     rotate: 180deg;
     top: 25px;
@@ -14,7 +14,7 @@ body{
 }
 
 .backward{
-    position: absolute;
+    position: fixed;
     height: 10vh;
     rotate: 180deg;
     top: 250px;
@@ -33,6 +33,10 @@ p{
     position: absolute;
     left: 20%;
     top: 15%;
+}
+
+p:hover{
+  color: darkolivegreen;
 }
 
 

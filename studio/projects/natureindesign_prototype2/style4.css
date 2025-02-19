@@ -36,6 +36,9 @@ p{
     top: 15%;
 }
 
+p:hover{
+  color: darkolivegreen;
+}
 
 
 .header {

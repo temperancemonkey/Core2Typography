@@ -22,9 +22,6 @@ body{
     opacity: 60%;
 }
 
-
-
-
 p{
     font-family: "Atkinson Hyperlegible Mono", serif;
     color: darkolivegreen;
@@ -33,6 +30,10 @@ p{
     position: absolute;
     left: 20%;
     top: 15%;
+}
+
+p:hover{
+  color: goldenrod;
 }
 
 

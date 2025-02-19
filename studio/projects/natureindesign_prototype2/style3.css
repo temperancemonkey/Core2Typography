@@ -35,6 +35,10 @@ p{
     top: 15%;
 }
 
+p:hover{
+  color: goldenrod;
+}
+
 
 /* FIRST */
 

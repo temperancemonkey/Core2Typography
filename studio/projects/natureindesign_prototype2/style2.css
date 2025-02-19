@@ -31,6 +31,10 @@ p{
     top: 15%;
 }
 
+p:hover{
+  color: darkolivegreen;
+}
+
 .header {
     font-family: "Grenze Gotisch", serif;
     height: 100vh;
@@ -60,6 +64,12 @@ p{
     top: 205%;
     /* left: -15%;
     bottom: 30%; */
+  }
+
+  .header.five{
+    position: absolute;
+    font-size: 12px;
+    transform: translate(0%, -50%);
   }
 
   .header-text {

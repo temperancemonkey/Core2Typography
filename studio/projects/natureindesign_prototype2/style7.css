@@ -1,191 +1,140 @@
-body{
-  background-color: rgb(142, 158, 71);
-  overflow: hidden;
-}
 
-.tableofcontents{
-  font-family: "Grenze Gotisch", serif;
-  color: rgb(233, 196, 73);
-  font-size: 10px;
-  position: absolute;
-  padding: 10px;
-  left: 65%;
-  top: 10%;
-}
-
-a{
-  text-decoration: none;
-  color: rgb(233, 196, 73);
-}
-
-li{
-  text-decoration: none;
-  list-style: none;
-  color: rgb(233, 196, 73);
-}
-
-h1{
-  font-size: 15px;
-  position: absolute;
-  font-family: "Grenze Gotisch", serif;
-  left: 21%;
-  top: 42%;
-  color: rgb(233, 196, 73);
-}
-
-  .header {
+.header {
     font-family: "Grenze Gotisch", serif;
-    position: fixed;
-    color: rgb(233, 196, 73);
-    width: 40%;
-    left: 32%;
-    top: 30%;
-    aspect-ratio: 1/1;
+    height: 100vh;
+    top: 20%;
+    left: 45%;
+    position: absolute;
   }
-
+  
   .header.two {
-    position: fixed;
-    top: 30%;
-    left: -15%;
+    position: absolute;
+    left: 25%;
+    bottom: 80%;
     transform: rotateY(180deg);
   }
-
+  
   .header.three{
-    position: fixed;
-    bottom: 30%;
-    left: 32%;
+    position: absolute;
     transform: rotateX(180deg);
+    top: 155%;
   }
-
+  
   .header.four{
-    position: fixed;
-    transform: rotateX(180deg);
+    position: absolutes;
+    /* transform: rotateX(180deg); */
     transform: rotateZ(180deg);
-    left: -15%;
-    bottom: 30%;
+    left: 25%;
+    top: 155%;
   }
-
-
   
   .header-text {
     font-family: "Grenze Gotisch", serif;
-    font-size: 15px;
+    color: goldenrod;
+  
+    font-size: 13px;
     position: absolute;
-    /* top: 15%;
-    left:325px; */
     transform: translate(-50%, -50%);
     width: max-content;
   }
-
+  
+  
   .header-text:nth-child(1){
     rotate: 25deg;
     opacity: 75%;
   }
-
+  
   .header-text:nth-child(2){
     rotate: 35deg;
     opacity: 75%;
   }
-
+  
   .header-text:nth-child(3){
     rotate: 45deg;
     opacity: 75%;
   }
-
+  
   .header-text:nth-child(4){
     rotate: 55deg;
     opacity: 75%;
   }
-
+  
   .header-text:nth-child(5){
     rotate: 65deg;
     opacity: 75%;
   }
-
+  
   .header-text:nth-child(6){
     rotate: 75deg;
     opacity: 75%;
   }
-
+  
   .header-text:nth-child(7){
     rotate: 85deg;
     opacity: 75%;
   }
-
+  
   .header-text:nth-child(8){
     rotate: 95deg;
     opacity: 75%;
   }
-
+  
   .header-text:nth-child(9){
     rotate: 105deg;
     opacity: 75%;
   }
-
+  
   .header-text:nth-child(10){
     rotate: 115deg;
     opacity: 75%;
   }
-
+  
   .header-text:nth-child(11){
     rotate: 125deg;
     opacity: 75%;
   }
-
+  
   .header-text:nth-child(12){
     rotate: 135deg;
     opacity: 75%;
   }
-
+  
   .header-text:nth-child(13){
     rotate: 145deg;
     opacity: 75%;
   }
-
+  
   .header-text:nth-child(14){
     rotate: 155deg;
     opacity: 75%;
   }
-
+  
   .header-text:nth-child(15){
     rotate: 165deg;
     opacity: 75%;
   }
-
+  
   .header-text:nth-child(16){
     rotate: 175deg;
     opacity: 75%;
   }
-
+  
   .header-text:nth-child(17){
     rotate: 185deg;
     opacity: 75%;
   }
-
+  
   .header-text:nth-child(18){
     rotate: 195deg;
     opacity: 75%;
   }
-
+  
   .header-text:nth-child(19){
     rotate: 205deg;
     opacity: 75%;
   }
-
+  
   .header-text:nth-child(20){
     rotate: 215deg;
     opacity: 75%;
   }
-
-  
-
-
-  
-
-
-  /* @media (max-width: 400px){
-    p{
-      font-size: 20px;
-    }
-  } */
-
