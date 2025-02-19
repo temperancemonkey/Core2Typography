@@ -1,10 +1,10 @@
 body{
-    background-color: rgb(142, 158, 71);
+  background-color: rgb(233, 196, 73);
 }
 
 
 .forward{
-    position: absolute;
+    position: fixed;
     height: 10vh;
     rotate: 180deg;
     top: 25px;
@@ -14,7 +14,7 @@ body{
 }
 
 .backward{
-    position: absolute;
+    position: fixed;
     height: 10vh;
     rotate: 180deg;
     top: 250px;
@@ -27,8 +27,9 @@ body{
 
 p{
     font-family: "Atkinson Hyperlegible Mono", serif;
-    color: darkolivegreen;
     font-size: 8px; 
+    color: goldenrod;
+
     width: 65vh;
     position: absolute;
     left: 20%;
@@ -36,531 +37,143 @@ p{
 }
 
 
-/* FIRST */
 
 .header {
-    font-family: "Grenze Gotisch", serif;
-    height: 100vh;
-    position: absolute;
-    color: rgba(85, 107, 47, 0.796);
-    z-index: -1;
-  }
-  
-  .header-text {
-    font-family: "Grenze Gotisch", serif;
-    font-size: 13px;
-    position: absolute;
-    top: 55px;
-    left:325px;
-    transform: translate(-50%, -50%);
-  }
-
-  .header-text:nth-child(1){
-    rotate: 25deg;
-    opacity: 75%;
-  }
-
-  .header-text:nth-child(2){
-    rotate: 35deg;
-    opacity: 75%;
-  }
-
-  .header-text:nth-child(3){
-    rotate: 45deg;
-    opacity: 75%;
-  }
-
-  .header-text:nth-child(4){
-    rotate: 55deg;
-    opacity: 75%;
-  }
-
-  .header-text:nth-child(5){
-    rotate: 65deg;
-    opacity: 75%;
-  }
-
-  .header-text:nth-child(6){
-    rotate: 75deg;
-    opacity: 75%;
-  }
-
-  .header-text:nth-child(7){
-    rotate: 85deg;
-    opacity: 75%;
-  }
-
-  .header-text:nth-child(8){
-    rotate: 95deg;
-    opacity: 75%;
-  }
-
-  .header-text:nth-child(9){
-    rotate: 105deg;
-    opacity: 75%;
-  }
-
-  .header-text:nth-child(10){
-    rotate: 115deg;
-    opacity: 75%;
-  }
-
-  .header-text:nth-child(11){
-    rotate: 125deg;
-    opacity: 75%;
-  }
-
-  .header-text:nth-child(12){
-    rotate: 135deg;
-    opacity: 75%;
-  }
-
-  .header-text:nth-child(13){
-    rotate: 145deg;
-    opacity: 75%;
-  }
-
-  .header-text:nth-child(14){
-    rotate: 155deg;
-    opacity: 75%;
-  }
-
-  .header-text:nth-child(15){
-    rotate: 165deg;
-    opacity: 75%;
-  }
-
-  .header-text:nth-child(16){
-    rotate: 175deg;
-    opacity: 75%;
-  }
-
-  .header-text:nth-child(17){
-    rotate: 185deg;
-    opacity: 75%;
-  }
-
-  .header-text:nth-child(18){
-    rotate: 195deg;
-    opacity: 75%;
-  }
-
-  .header-text:nth-child(19){
-    rotate: 205deg;
-    opacity: 75%;
-  }
-
-  .header-text:nth-child(20){
-    rotate: 215deg;
-    opacity: 75%;
-  }
-
-  
-  .header.one {
-    font-size: 30px
-  }
-  
-  .header.two {
-    font-size: 10px
-  }
-
-/* SECOND */
-
-
-  .header2 {
-    font-family: "Grenze Gotisch", serif;
-    height: 100vh;
-    position: absolute;
-    color: rgba(85, 107, 47, 0.796);
-    z-index: -1;
-  }
-  
-  .header-text2 {
-    font-family: "Grenze Gotisch", serif;
-    font-size: 13px;
-    position: absolute;
-    rotate: 200deg;
-    top: 55px;
-    left: 35px;
-    /* top: 55px;
-    left:325px; */
-    transform: translate(-50%, -50%);
-  }
-
-  .header-text2:nth-child(1){
-    rotate: 25deg;
-    opacity: 75%;
-  }
-
-  .header-text2:nth-child(2){
-    rotate: 35deg;
-    opacity: 75%;
-  }
-
-  .header-text2:nth-child(3){
-    rotate: 45deg;
-    opacity: 75%;
-  }
-
-  .header-text2:nth-child(4){
-    rotate: 55deg;
-    opacity: 75%;
-  }
-
-  .header-text2:nth-child(5){
-    rotate: 65deg;
-    opacity: 75%;
-  }
-
-  .header-text2:nth-child(6){
-    rotate: 75deg;
-    opacity: 75%;
-  }
-
-  .header-text2:nth-child(7){
-    rotate: 85deg;
-    opacity: 75%;
-  }
-
-  .header-text2:nth-child(8){
-    rotate: 95deg;
-    opacity: 75%;
-  }
-
-  .header-text2:nth-child(9){
-    rotate: 105deg;
-    opacity: 75%;
-  }
-
-  .header-text2:nth-child(10){
-    rotate: 115deg;
-    opacity: 75%;
-  }
-
-  .header-text2:nth-child(11){
-    rotate: 125deg;
-    opacity: 75%;
-  }
-
-  .header-text2:nth-child(12){
-    rotate: 135deg;
-    opacity: 75%;
-  }
-
-  .header-text2:nth-child(13){
-    rotate: 145deg;
-    opacity: 75%;
-  }
-
-  .header-text2:nth-child(14){
-    rotate: 155deg;
-    opacity: 75%;
-  }
-
-  .header-text2:nth-child(15){
-    rotate: 165deg;
-    opacity: 75%;
-  }
-
-  .header-text2:nth-child(16){
-    rotate: 175deg;
-    opacity: 75%;
-  }
-
-  .header-text2:nth-child(17){
-    rotate: 185deg;
-    opacity: 75%;
-  }
-
-  .header-text2:nth-child(18){
-    rotate: 195deg;
-    opacity: 75%;
-  }
-
-  .header-text2:nth-child(19){
-    rotate: 205deg;
-    opacity: 75%;
-  }
-
-  .header-text2:nth-child(20){
-    rotate: 215deg;
-    opacity: 75%;
-  }
-
-  
-  .header.one {
-    font-size: 30px
-  }
-  
-  .header.two {
-    font-size: 10px
-  }
-
-
-  /* THIRD */
-
-  .header3 {
-    font-family: "Grenze Gotisch", serif;
-    height: 100vh;
-    position: absolute;
-    color: rgba(85, 107, 47, 0.796);
-    z-index: -1;
-  }
-  
-  .header-text3 {
-    font-family: "Grenze Gotisch", serif;
-    font-size: 13px;
-    position: absolute;
-    rotate: 200deg;
-    top: 750px;
-    left: 320px;
-    /* top: 55px;
-    left:325px; */
-    transform: translate(-50%, -50%);
-  }
-
-  .header-text3:nth-child(1){
-    rotate: 25deg;
-    opacity: 75%;
-  }
-
-  .header-text3:nth-child(2){
-    rotate: 35deg;
-    opacity: 75%;
-  }
-
-  .header-text3:nth-child(3){
-    rotate: 45deg;
-    opacity: 75%;
-  }
-
-  .header-text3:nth-child(4){
-    rotate: 55deg;
-    opacity: 75%;
-  }
-
-  .header-text3:nth-child(5){
-    rotate: 65deg;
-    opacity: 75%;
-  }
-
-  .header-text3:nth-child(6){
-    rotate: 75deg;
-    opacity: 75%;
-  }
-
-  .header-text3:nth-child(7){
-    rotate: 85deg;
-    opacity: 75%;
-  }
-
-  .header-text3:nth-child(8){
-    rotate: 95deg;
-    opacity: 75%;
-  }
-
-  .header-text3:nth-child(9){
-    rotate: 105deg;
-    opacity: 75%;
-  }
-
-  .header-text3:nth-child(10){
-    rotate: 115deg;
-    opacity: 75%;
-  }
-
-  .header-text3:nth-child(11){
-    rotate: 125deg;
-    opacity: 75%;
-  }
-
-  .header-text3:nth-child(12){
-    rotate: 135deg;
-    opacity: 75%;
-  }
-
-  .header-text3:nth-child(13){
-    rotate: 145deg;
-    opacity: 75%;
-  }
-
-  .header-text3:nth-child(14){
-    rotate: 155deg;
-    opacity: 75%;
-  }
-
-  .header-text3:nth-child(15){
-    rotate: 165deg;
-    opacity: 75%;
-  }
-
-  .header-text3:nth-child(16){
-    rotate: 175deg;
-    opacity: 75%;
-  }
-
-  .header-text3:nth-child(17){
-    rotate: 185deg;
-    opacity: 75%;
-  }
-
-  .header-text3:nth-child(18){
-    rotate: 195deg;
-    opacity: 75%;
-  }
-
-  .header-text3:nth-child(19){
-    rotate: 205deg;
-    opacity: 75%;
-  }
-
-  .header-text3:nth-child(20){
-    rotate: 215deg;
-    opacity: 75%;
-  }
-
-  
-  .header.one {
-    font-size: 30px
-  }
-  
-  .header.two {
-    font-size: 10px
-  }
-
-
-
-
-
-
-
-  /* FOURTH */
-
-  .header4 {
-    font-family: "Grenze Gotisch", serif;
-    height: 100vh;
-    position: absolute;
-    color: rgba(85, 107, 47, 0.796);
-    z-index: -1;
-  }
-  
-  .header-text4 {
-    font-family: "Grenze Gotisch", serif;
-    font-size: 13px;
-    position: absolute;
-    rotate: 200deg;
-    top: 750px;
-    left: 35px;
-    /* top: 55px;
-    left:325px; */
-    transform: translate(-50%, -50%);
-  }
-
-  .header-text4:nth-child(1){
-    rotate: 25deg;
-    opacity: 75%;
-  }
-
-  .header-text4:nth-child(2){
-    rotate: 35deg;
-    opacity: 75%;
-  }
-
-  .header-text4:nth-child(3){
-    rotate: 45deg;
-    opacity: 75%;
-  }
-
-  .header-text4:nth-child(4){
-    rotate: 55deg;
-    opacity: 75%;
-  }
-
-  .header-text4:nth-child(5){
-    rotate: 65deg;
-    opacity: 75%;
-  }
-
-  .header-text4:nth-child(6){
-    rotate: 75deg;
-    opacity: 75%;
-  }
-
-  .header-text4:nth-child(7){
-    rotate: 85deg;
-    opacity: 75%;
-  }
-
-  .header-text4:nth-child(8){
-    rotate: 95deg;
-    opacity: 75%;
-  }
-
-  .header-text4:nth-child(9){
-    rotate: 105deg;
-    opacity: 75%;
-  }
-
-  .header-text4:nth-child(10){
-    rotate: 115deg;
-    opacity: 75%;
-  }
-
-  .header-text4:nth-child(11){
-    rotate: 125deg;
-    opacity: 75%;
-  }
-
-  .header-text4:nth-child(12){
-    rotate: 135deg;
-    opacity: 75%;
-  }
-
-  .header-text4:nth-child(13){
-    rotate: 145deg;
-    opacity: 75%;
-  }
-
-  .header-text4:nth-child(14){
-    rotate: 155deg;
-    opacity: 75%;
-  }
-
-  .header-text4:nth-child(15){
-    rotate: 165deg;
-    opacity: 75%;
-  }
-
-  .header-text4:nth-child(16){
-    rotate: 175deg;
-    opacity: 75%;
-  }
-
-  .header-text4:nth-child(17){
-    rotate: 185deg;
-    opacity: 75%;
-  }
-
-  .header-text4:nth-child(18){
-    rotate: 195deg;
-    opacity: 75%;
-  }
-
-  .header-text4:nth-child(19){
-    rotate: 205deg;
-    opacity: 75%;
-  }
-
-  .header-text4:nth-child(20){
-    rotate: 215deg;
-    opacity: 75%;
-  }
-
-  
-  .header.one {
-    font-size: 30px
-  }
-  
-  .header.two {
-    font-size: 10px
-  }
+  font-family: "Grenze Gotisch", serif;
+  height: 100vh;
+  top: 20%;
+  left: 45%;
+  position: absolute;
+}
+
+.header.two {
+  position: absolute;
+  left: 25%;
+  bottom: 80%;
+  transform: rotateY(180deg);
+}
+
+.header.three{
+  position: absolute;
+  transform: rotateX(180deg);
+  top: 155%;
+}
+
+.header.four{
+  position: absolutes;
+  /* transform: rotateX(180deg); */
+  transform: rotateZ(180deg);
+  left: 25%;
+  top: 155%;
+}
+
+.header-text {
+  font-family: "Grenze Gotisch", serif;
+  color: goldenrod;
+
+  font-size: 13px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: max-content;
+}
+
+
+.header-text:nth-child(1){
+  rotate: 25deg;
+  opacity: 75%;
+}
+
+.header-text:nth-child(2){
+  rotate: 35deg;
+  opacity: 75%;
+}
+
+.header-text:nth-child(3){
+  rotate: 45deg;
+  opacity: 75%;
+}
+
+.header-text:nth-child(4){
+  rotate: 55deg;
+  opacity: 75%;
+}
+
+.header-text:nth-child(5){
+  rotate: 65deg;
+  opacity: 75%;
+}
+
+.header-text:nth-child(6){
+  rotate: 75deg;
+  opacity: 75%;
+}
+
+.header-text:nth-child(7){
+  rotate: 85deg;
+  opacity: 75%;
+}
+
+.header-text:nth-child(8){
+  rotate: 95deg;
+  opacity: 75%;
+}
+
+.header-text:nth-child(9){
+  rotate: 105deg;
+  opacity: 75%;
+}
+
+.header-text:nth-child(10){
+  rotate: 115deg;
+  opacity: 75%;
+}
+
+.header-text:nth-child(11){
+  rotate: 125deg;
+  opacity: 75%;
+}
+
+.header-text:nth-child(12){
+  rotate: 135deg;
+  opacity: 75%;
+}
+
+.header-text:nth-child(13){
+  rotate: 145deg;
+  opacity: 75%;
+}
+
+.header-text:nth-child(14){
+  rotate: 155deg;
+  opacity: 75%;
+}
+
+.header-text:nth-child(15){
+  rotate: 165deg;
+  opacity: 75%;
+}
+
+.header-text:nth-child(16){
+  rotate: 175deg;
+  opacity: 75%;
+}
+
+.header-text:nth-child(17){
+  rotate: 185deg;
+  opacity: 75%;
+}
+
+.header-text:nth-child(18){
+  rotate: 195deg;
+  opacity: 75%;
+}
+
+.header-text:nth-child(19){
+  rotate: 205deg;
+  opacity: 75%;
+}
+
+.header-text:nth-child(20){
+  rotate: 215deg;
+  opacity: 75%;
+}
