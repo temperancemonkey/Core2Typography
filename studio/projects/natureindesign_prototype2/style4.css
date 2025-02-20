@@ -9,6 +9,16 @@ body{
   background-color: rgb(233, 196, 73);
 }
 
+h1{
+  position: absolute;
+  font-size: 20px;
+  font-family: "Grenze Gotisch", serif;
+  top: 38%;
+  left: 82%;
+  rotate: 90deg;
+  opacity: 30%;
+}
+
 
 .forward{
     position: fixed;
@@ -71,7 +81,6 @@ p:hover{
 
 .header.four{
   position: absolutes;
-  /* transform: rotateX(180deg); */
   transform: rotateZ(180deg);
   left: 25%;
   top: 155%;
