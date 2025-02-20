@@ -1,3 +1,9 @@
+html{
+  cursor: url(cursor.png), auto;
+}
+
+
+
 body{
   background-color: rgb(142, 158, 71);
 }

@@ -1,3 +1,8 @@
+html{
+  cursor: url(cursor.png), auto;
+}
+
+
 body{
     background-color: rgb(233, 196, 73);
     color: goldenrod;
@@ -66,11 +71,8 @@ p:hover{
     bottom: 30%; */
   }
 
-  .header.five{
-    position: absolute;
-    font-size: 12px;
-    transform: translate(0%, -50%);
-  }
+
+ 
 
   .header-text {
     font-family: "Grenze Gotisch", serif;
