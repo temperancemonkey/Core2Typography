@@ -9,28 +9,61 @@ header{
 	align-items: center;
 }
 
-.projects{
+/* .projects{
 	font-size: 10px;
 	margin: 5px;
 	display: flex;
 	position: fixed;
 	left: 5%;
 	top: 2%;
-}
+} */
 
-.projects:hover{
+/* .projects:hover{
+	color: goldenrod;
+} */
+
+
+.dropbtn {
+	font-family: "Space Mono", serif;
+    font-size: 10px;
+    border: none;
+	background-color: white;
+  }
+  
+.dropbtn:hover{
 	color: goldenrod;
 }
+  .dropdown {
+    position: absolute;
+    display: inline-block;
+    top: 5%;
+    left: 5%;
+  }
+  
+  
+  .dropdown-content {
+	font-family: "Space Mono", serif;
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    font-size: 8px;
+    text-decoration: none;
+    display: block;
+	color: black;
+  }
 
-.workshops{
-	font-size: 10px;
-	margin: 5px;
-	display: flex;
-	position: fixed;
-	right: 5%;
-	top: 2%;
-}
-
-.workshops:hover{
+  .dropdown-content a:hover{
 	color: goldenrod;
+  }
+
+
+
+.dropdown:hover .dropdown-content {display: block;}
+
+#workshops{
+	left: 50rem;
 }
