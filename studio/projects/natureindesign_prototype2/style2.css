@@ -24,14 +24,14 @@ body{
     position: fixed;
     height: 10vh;
     rotate: 180deg;
-    top: 250px;
+    top: 85%;
     right: 25px;
     opacity: 60%;
 }
 
 p{
     font-family: "Atkinson Hyperlegible Mono", serif;
-    font-size: 8px; 
+    font-size: 20px; 
     width: 65vh;
     position: absolute;
     left: 20%;
@@ -65,12 +65,9 @@ p:hover{
 
   .header.four{
     position: absolutes;
-    /* transform: rotateX(180deg); */
     transform: rotateZ(180deg);
     left: 25%;
     top: 205%;
-    /* left: -15%;
-    bottom: 30%; */
   }
 
 
@@ -78,7 +75,7 @@ p:hover{
 
   .header-text {
     font-family: "Grenze Gotisch", serif;
-    font-size: 13px;
+    font-size: 35px;
     position: absolute;
     transform: translate(-50%, -50%);
     width: max-content;

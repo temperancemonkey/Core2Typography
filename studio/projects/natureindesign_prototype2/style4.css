@@ -34,7 +34,7 @@ h1{
     position: fixed;
     height: 10vh;
     rotate: 180deg;
-    top: 250px;
+    top: 85%;
     right: 25px;
     opacity: 60%;
 }
@@ -44,9 +44,8 @@ h1{
 
 p{
     font-family: "Atkinson Hyperlegible Mono", serif;
-    font-size: 8px; 
+    font-size: 20px; 
     color: goldenrod;
-
     width: 65vh;
     position: absolute;
     left: 20%;
@@ -90,7 +89,7 @@ p:hover{
   font-family: "Grenze Gotisch", serif;
   color: goldenrod;
 
-  font-size: 13px;
+  font-size: 35px;
   position: absolute;
   transform: translate(-50%, -50%);
   width: max-content;

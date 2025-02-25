@@ -4,8 +4,6 @@ html{
 }
 
 
-
-
 body{
   background-color: rgb(142, 158, 71);
 }
@@ -25,7 +23,7 @@ body{
     position: fixed;
     height: 10vh;
     rotate: 180deg;
-    top: 250px;
+    top: 85%;
     right: 25px;
     opacity: 60%;
 }
@@ -33,7 +31,7 @@ body{
 p{
     font-family: "Atkinson Hyperlegible Mono", serif;
     color: darkolivegreen;
-    font-size: 8px; 
+    font-size: 20px; 
     width: 65vh;
     position: absolute;
     left: 20%;
@@ -78,7 +76,7 @@ p:hover{
 .header-text {
   font-family: "Grenze Gotisch", serif;
   color: darkolivegreen;
-  font-size: 13px;
+  font-size: 35px;
   position: absolute;
   transform: translate(-50%, -50%);
   width: max-content;

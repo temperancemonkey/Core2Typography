@@ -4,18 +4,19 @@ body{
 }
 
 header{
+  position: relative;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+  top: 10px;
   font-size: 35px;
 }
 
-
 .dropbtn {
-	font-family: "Space Mono", serif;
+	  font-family: "Space Mono", serif;
     font-size: 25px;
     border: none;
-	background-color: white;
+	  background-color: white;
   }
   
 .dropbtn:hover{
@@ -25,9 +26,8 @@ header{
     position: absolute;
     display: inline-block;
     top: 3%;
-    left: 10%;
+    left: 5%;
   }
-  
   
   .dropdown-content {
 	  font-family: "Space Mono", serif;
@@ -41,32 +41,19 @@ header{
     font-size: 20px;
     text-decoration: none;
     display: block;
-	color: black;
+	  color: black;
   }
 
   .dropdown-content a:hover{
 	color: goldenrod;
   }
 
-
-
 .dropdown:hover .dropdown-content {display: block;}
 
 #workshops{
 	top: 3%;
-	left: 75%;
+	left: 79%;
 }
 
 
-.image-hover {
-    width: 300px; /* Specify the width */
-    height: 200px; /* Specify the height */
-    background-image: url('default-image.jpg'); /* Initial background image */
-    background-size: cover; /* Cover the entire area of the element */
-    transition: background-image 0.5s ease-in-out; /* Smooth transition */
-}
 
-.image-hover:hover{
-	background-image: url('hover-image.jpg');
-}
-    /* Change on hover */

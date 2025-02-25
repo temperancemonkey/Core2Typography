@@ -11,11 +11,11 @@ body{
 .tableofcontents{
   font-family: "Grenze Gotisch", serif;
   color: rgb(233, 196, 73);
-  font-size: 10px;
+  font-size: 30px;
   position: absolute;
   padding: 10px;
   left: 65%;
-  top: 10%;
+  top: 5%;
 }
 
 a{
@@ -30,11 +30,11 @@ li{
 }
 
 h1{
-  font-size: 15px;
+  font-size: 45px;
   position: absolute;
   font-family: "Grenze Gotisch", serif;
-  left: 21%;
-  top: 42%;
+  left: 20%;
+  top: 40%;
   color: rgb(233, 196, 73);
 }
 
@@ -73,7 +73,7 @@ h1{
 
   .header-text {
     font-family: "Grenze Gotisch", serif;
-    font-size: 15px;
+    font-size: 35px;
     position: absolute;
     /* top: 15%;
     left:325px; */
@@ -184,8 +184,9 @@ h1{
   .about{
     position: absolute;
     font-family: "Atkinson Hyperlegible Mono", serif;
-    font-size: 8px;
+    font-size: 20px;
     left: 93%;
+    top: 5%;
   }
 
   
