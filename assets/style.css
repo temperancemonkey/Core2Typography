@@ -65,6 +65,7 @@ header{
     transition: background-image 0.5s ease-in-out; /* Smooth transition */
 }
 
-.image-hover:hover {
-    background-image: url('hover-image.jpg'); /* Change on hover */
-]
+.image-hover:hover{
+	background-image: url('hover-image.jpg');
+}
+    /* Change on hover */
