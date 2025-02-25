@@ -9,19 +9,6 @@ header{
 	align-items: center;
 }
 
-/* .projects{
-	font-size: 10px;
-	margin: 5px;
-	display: flex;
-	position: fixed;
-	left: 5%;
-	top: 2%;
-} */
-
-/* .projects:hover{
-	color: goldenrod;
-} */
-
 
 .dropbtn {
 	font-family: "Space Mono", serif;
@@ -65,5 +52,6 @@ header{
 .dropdown:hover .dropdown-content {display: block;}
 
 #workshops{
-	left: 50rem;
+	top: 5%;
+	left: 75%;
 }
