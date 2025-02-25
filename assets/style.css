@@ -1,5 +1,6 @@
 body{
 	font-family: "Space Mono", serif;
+	overflow: hidden;
 }
 
 header{
@@ -10,16 +11,26 @@ header{
 
 .projects{
 	font-size: 10px;
+	margin: 5px;
 	display: flex;
-	position: absolute;
+	position: fixed;
 	left: 5%;
 	top: 2%;
 }
 
+.projects:hover{
+	color: goldenrod;
+}
+
 .workshops{
 	font-size: 10px;
+	margin: 5px;
 	display: flex;
-	position: absolute;
+	position: fixed;
 	right: 5%;
 	top: 2%;
+}
+
+.workshops:hover{
+	color: goldenrod;
 }
