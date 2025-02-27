@@ -1,6 +1,6 @@
 body{
 	font-family: "Space Mono", serif;
-	overflow: hidden;
+	/* overflow: hidden; */
 }
 
 header{
@@ -22,6 +22,7 @@ header{
 .dropbtn:hover{
 	color: goldenrod;
 }
+
   .dropdown {
     position: absolute;
     display: inline-block;
@@ -54,6 +55,20 @@ header{
 	top: 3%;
 	left: 79%;
 }
+
+
+/* SLIDESHOW ANIMATION */
+
+
+
+
+
+
+
+
+
+
+
 
 
 
