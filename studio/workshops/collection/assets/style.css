@@ -3,9 +3,13 @@
 }
 
 html {
-	background-color: orange;
-	color: yellow;
-	font-family: sans-serif;
+	background-color: rgb(31, 31, 138);
+	color: rgb(18, 72, 160);
+	font-family: "Quantico", sans-serif;
+}
+
+.message{
+	font-size: 50px;
 }
 
 .output {
