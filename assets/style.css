@@ -12,6 +12,13 @@ header{
   font-size: 35px;
 }
 
+#curve{
+  fill: transparent;
+}
+
+#A{
+  font-size: 125px;
+}
 .dropbtn {
 	  font-family: "Space Mono", serif;
     font-size: 25px;

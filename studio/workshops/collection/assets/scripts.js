@@ -41,7 +41,7 @@ submitButton.addEventListener('click', () => {
     console.log(matchingEntry);
 
     if (matchingEntry) {
-        output.innerHTML = `<img src="img/${ matchingEntry.filename }">`;
+        output.innerHTML = `<img src="img/${ matchingEntry.filename}">`;
     }
 
 })
