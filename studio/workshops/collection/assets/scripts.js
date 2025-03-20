@@ -16,6 +16,11 @@ var submitButton = document.querySelector('button[name="submit"]');
 
 console.log(submitButton);
 
+//get the output element
+var output = document.querySelector('.output');
+
+console.log(submitButton);
+
 //add event listener to the button
 submitButton.addEventListener('click', () => {
     
@@ -34,5 +39,9 @@ submitButton.addEventListener('click', () => {
     });
 
     console.log(matchingEntry);
+
+    if (matchingEntry) {
+        output.innerHTML = `<img src="img/${ matchingEntry.filename }">`;
+    }
 
 })
