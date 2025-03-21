@@ -3,11 +3,17 @@ html{
     
 }
 
+.Typeface{
+    position: absolute;
+    top: 2vw;
+    left: 90vw;
+    font-size: 25px;
+
+}
+
 .logo{
     font-size: 80px;
 }
-
-
 
 .main{
     text-decoration: none;
@@ -20,3 +26,14 @@ header{
     bottom: 5vw;
     left: 22%;
 }
+
+.font{
+    font-family: "Finlandica", sans-serif;
+}
+
+.Color{
+    font-family: "Finlandica", sans-serif;
+}
+
+
+
