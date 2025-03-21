@@ -4,12 +4,19 @@ html{
 }
 
 .logo{
-    position: relative;
-    display: inline-flex;
     font-size: 80px;
 }
+
+
 
 .main{
     text-decoration: none;
     color: black;
+}
+
+header{
+    position: absolute;
+    font-size: 115px;
+    bottom: 5vw;
+    left: 22%;
 }
