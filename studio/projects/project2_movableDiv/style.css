@@ -14,6 +14,7 @@ html{
     position: relative;
     display: inline-flex;
     font-size: 80px;
+    left: 2vw;
 }
 
 .sub{

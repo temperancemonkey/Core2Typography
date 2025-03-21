@@ -3,16 +3,43 @@ html{
     
 }
 
-.Typeface{
+.typeface{
     position: absolute;
     top: 2vw;
     left: 90vw;
     font-size: 25px;
+    height: 5vw;
 
 }
 
+.buttons{
+    rotate: 90deg;
+    position: absolute;
+    top: 12vw;
+    right: 3vw;
+    cursor: grab;
+}
+
+.font{
+    position: absolute;
+    font-size: 25px;
+    border: none;
+    background-color: transparent;
+}
+
+.color{
+    position: absolute;
+    font-size: 25px;
+    border: none;
+    background-color: transparent;
+    left: 25vw;
+}
+
 .logo{
+    position: relative;
+    left: 2vw;
     font-size: 80px;
+
 }
 
 .main{
@@ -31,9 +58,19 @@ header{
     font-family: "Finlandica", sans-serif;
 }
 
-.Color{
+.color{
     font-family: "Finlandica", sans-serif;
 }
+
+@media  (max-width: 600px) {
+    .header{
+        position: absolute;
+        font-size: 50px;
+        bottom: 5vw;
+        left: 22%;
+    }
+}
+
 
 
 
