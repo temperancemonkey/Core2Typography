@@ -3,7 +3,6 @@ html{
     
 }
 
-
 .logo{
     position: relative;
     display: inline-flex;
@@ -14,12 +13,3 @@ html{
     text-decoration: none;
     color: black;
 }
-
-p{
-    position: absolute;
-    display: flex;
-    left: 25%;
-    top: 45%;
-    font-size: 25px;   
-}
-
