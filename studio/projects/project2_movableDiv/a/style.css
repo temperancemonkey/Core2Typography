@@ -24,15 +24,25 @@ html{
     position: absolute;
     font-size: 25px;
     border: none;
-    background-color: transparent;
+    /* background-color: transparent; */
+}
+
+.font:hover{
+    background-color: ivory;
+    color: navy;
 }
 
 .color{
     position: absolute;
     font-size: 25px;
     border: none;
-    background-color: transparent;
+    /* background-color: transparent; */
     left: 25vw;
+}
+
+.color:hover{
+    background-color: ivory;
+    color: navy;
 }
 
 .logo{
