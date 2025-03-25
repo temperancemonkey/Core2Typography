@@ -54,6 +54,10 @@ header{
     left: 22%;
 }
 
+.fontred{
+    color: red;
+}
+
 .font{
     font-family: "Finlandica", sans-serif;
 }
