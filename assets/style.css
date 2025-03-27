@@ -29,14 +29,14 @@ svg{
   animation: rotate 15s linear infinite;
 }
 
-@keyframes rotate{
+/* @keyframes rotate{
   from{
     transform: rotateZ(0deg);
   }
   to {
     transform: rotateZ(360deg);
   }
-}
+} */
 
 .dropbtn {
 	  font-family: "Space Mono", serif;
