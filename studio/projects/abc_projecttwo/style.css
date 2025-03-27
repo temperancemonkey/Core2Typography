@@ -1,0 +1,13 @@
+body{
+    font-family: "Finlandica", sans-serif;
+}
+
+
+button{
+    position: relative;
+    display: inline-block;
+    font-family: "Finlandica", sans-serif;
+    font-size: 60px;
+    margin: 2px;
+}
+
