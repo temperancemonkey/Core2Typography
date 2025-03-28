@@ -149,3 +149,18 @@ colorButton.addEventListener('click', () => {
   colorIndex = (colorIndex + 1) % colors.length;
 
 });
+
+//typeface changing button
+var fontFamilyButton = document.getElementById('typeface');
+const fontFamily =['Finlandica, sans-serif', 'Space Mono, monospace', 'Funnel Display, sans-serif'];
+let typefaceIndex = 0;
+
+typefaceButton.addEventListener('click', () => {
+  var currentFont = output.body.style.fontFamily;
+
+  output.style.typeface = fontFamily[typefaceIndex];
+
+  typefaceIndex = (typefaceIndex + 1) % fontFamily.length;
+
+
+});
