@@ -10,6 +10,8 @@ button{
     font-family: "Finlandica", sans-serif;
     font-size: 60px;
     margin: 2px;
+
+    border: transparent;
 }
 
 .output{
@@ -17,6 +19,7 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
+    top: 10vw;
     font-size: 80px;
 }
 
@@ -24,16 +27,18 @@ button{
     position: absolute;
     display: flex;
     bottom: 5%;
-    margin: 5vw;
 }
 
 #typeface{
-    font-size: 25px;
+    font-size: 30px;
+    left: 15vw;
+    bottom: 5vw;
 
 
 }
 
 #color{
-    font-size: 25px;
-    left: 70%;
+    font-size: 30px;
+    left: 70vw;
+    bottom: 5vw;
 }
