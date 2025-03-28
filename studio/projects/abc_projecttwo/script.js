@@ -135,3 +135,17 @@ buttons.forEach((button) => {
     
   });
 });
+
+// color changing button
+var colorButton = document.getElementById('color');
+const colors = ['crimson', 'navy', 'yellow', 'magenta'];
+let colorIndex = 0;
+
+colorButton.addEventListener('click', () => {
+  var currentColor = output.style.color;
+
+  output.style.color = colors[colorIndex];
+
+  colorIndex = (colorIndex + 1) % colors.length;
+
+});
