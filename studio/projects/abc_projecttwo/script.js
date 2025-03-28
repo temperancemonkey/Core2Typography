@@ -156,7 +156,7 @@ const fontFamily =['Finlandica, sans-serif', 'Space Mono, monospace', 'Funnel Di
 let typefaceIndex = 0;
 
 typefaceButton.addEventListener('click', () => {
-  var currentFont = output.body.style.fontFamily;
+  var currentFont = output.style.fontFamily;
 
   output.style.typeface = fontFamily[typefaceIndex];
 
