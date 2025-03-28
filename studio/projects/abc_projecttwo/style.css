@@ -1,5 +1,6 @@
 body{
     font-family: "Finlandica", sans-serif;
+    overflow: hidden;
 }
 
 
@@ -11,3 +12,26 @@ button{
     margin: 2px;
 }
 
+.output{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+}
+
+.typeandcolor{
+    position: absolute;
+    display: flex;
+    bottom: 5%;
+}
+
+#typeface{
+    position: absolute;
+    font-size: 25px;
+}
+
+#color{
+    position: absolute;
+    font-size: 25px;
+}
