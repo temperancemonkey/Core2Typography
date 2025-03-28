@@ -1,18 +1,20 @@
 body{
+    /* height: 100vh; */
     font-family: "Finlandica", sans-serif;
     overflow: hidden;
 }
 
+.input{
+    display: flex;
+}
 
 button{
     position: relative;
-    /* display: inline-block; */
     font-family: "Finlandica", sans-serif;
-    font-size: 65px;
-    margin: 2px;
+    font-size: 70px;
+    margin: 3px;
     left: 1%;
 
-    
     background-color: transparent;
     border: none;
     color: rgb(225, 225, 225);
@@ -32,21 +34,15 @@ button:hover{
     font-size: 80px;
 }
 
-.typeandcolor{
-    position: absolute;
-    display: flex;
-    bottom: 5%;
-}
-
 #typeface{
+    position: absolute;
     font-size: 30px;
     left: 15vw;
     bottom: 5vw;
-
-
 }
 
 #color{
+    position: absolute;
     font-size: 30px;
     left: 70vw;
     bottom: 5vw;
