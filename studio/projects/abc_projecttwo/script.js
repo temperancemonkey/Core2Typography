@@ -138,7 +138,7 @@ buttons.forEach((button) => {
 
 // color changing button
 var colorButton = document.getElementById('color');
-const colors = ['crimson', 'navy', 'yellow', 'magenta'];
+const colors = ['crimson', 'navy', 'orange', 'purple', 'black'];
 let colorIndex = 0;
 
 colorButton.addEventListener('click', () => {
