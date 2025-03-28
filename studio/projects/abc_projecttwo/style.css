@@ -8,10 +8,19 @@ button{
     position: relative;
     display: inline-block;
     font-family: "Finlandica", sans-serif;
-    font-size: 60px;
+    font-size: 65px;
     margin: 2px;
+    left: 1%;
 
-    border: transparent;
+    
+    background-color: transparent;
+    border: none;
+    color: rgb(225, 225, 225);
+}
+
+button:hover{
+    color: black;
+    cursor: grab;
 }
 
 .output{
