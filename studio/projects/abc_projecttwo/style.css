@@ -6,7 +6,7 @@ body{
 
 button{
     position: relative;
-    display: inline-block;
+    /* display: inline-block; */
     font-family: "Finlandica", sans-serif;
     font-size: 65px;
     margin: 2px;
