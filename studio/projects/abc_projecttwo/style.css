@@ -24,14 +24,16 @@ button{
     position: absolute;
     display: flex;
     bottom: 5%;
+    margin: 5vw;
 }
 
 #typeface{
-    position: absolute;
     font-size: 25px;
+
+
 }
 
 #color{
-    position: absolute;
     font-size: 25px;
+    left: 70%;
 }
