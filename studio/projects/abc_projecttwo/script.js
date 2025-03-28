@@ -138,7 +138,7 @@ buttons.forEach((button) => {
 
 // color changing button
 var colorButton = document.getElementById('color');
-const colors = ['crimson', 'navy', 'orange', 'purple', 'black'];
+const colors = ['crimson', 'navy', 'orange', 'purple', 'yellow', 'pink', 'black'];
 let colorIndex = 0;
 
 colorButton.addEventListener('click', () => {
@@ -152,7 +152,7 @@ colorButton.addEventListener('click', () => {
 
 //typeface changing button
 var typefaceButton = document.getElementById('typeface');
-const fontFamily =[ 'Space Mono, monospace', 'Funnel Display, sans-serif', 'Finlandica, sans-serif', ];
+const fontFamily =[ 'Space Mono, monospace', 'Funnel Display, sans-serif', 'Finlandica, sans-serif', '"Nova Cut", system-ui', '"Arbutus", serif', '"Almendra Display", serif', '"Jacquard 24", system-ui' ];
 let typefaceIndex = 0;
 
 typefaceButton.addEventListener('click', () => {
