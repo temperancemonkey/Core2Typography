@@ -138,7 +138,7 @@ buttons.forEach((button) => {
 
 // color changing button
 var colorButton = document.getElementById('color');
-const colors = ['crimson', 'navy', 'orange', 'purple', 'yellow', 'pink', 'black'];
+const colors = ['crimson', 'navy', 'orange', 'purple', 'yellow', 'pink', 'blue', 'black'];
 let colorIndex = 0;
 
 colorButton.addEventListener('click', () => {
@@ -163,4 +163,8 @@ typefaceButton.addEventListener('click', () => {
   typefaceIndex = (typefaceIndex + 1) % fontFamily.length;
 
 
+
 });
+
+//drop down selection of typefaces
+

@@ -1,5 +1,4 @@
 body{
-    /* height: 100vh; */
     font-family: "Finlandica", sans-serif;
     overflow: hidden;
 }
@@ -37,13 +36,22 @@ button:hover{
 #typeface{
     position: absolute;
     font-size: 30px;
-    left: 15vw;
+    left: 20vw;
     bottom: 5vw;
 }
 
 #color{
     position: absolute;
     font-size: 30px;
-    left: 70vw;
+    left: 75vw;
     bottom: 5vw;
+}
+
+
+.main{
+    position: absolute;
+    bottom: 5.5vw;
+    left: 45vw;
+
+    
 }
