@@ -7,6 +7,8 @@ body{
     display: flex;
 }
 
+
+
 button{
     position: relative;
     font-family: "Finlandica", sans-serif;
@@ -32,6 +34,8 @@ button:hover{
     top: 10vw;
     font-size: 80px;
 }
+
+
 
 #typeface{
     position: absolute;
