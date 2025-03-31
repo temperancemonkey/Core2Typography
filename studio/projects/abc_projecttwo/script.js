@@ -61,7 +61,7 @@ var data = [
       },
       {
         "letter": "p",
-        "text": "a prickle of porcupine"
+        "text": "a prickle of porcupines"
       },
       {
         "letter": "q",
