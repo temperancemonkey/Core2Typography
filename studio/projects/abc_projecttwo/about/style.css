@@ -1,0 +1,12 @@
+body{
+    font-family: "Finlandica", sans-serif;
+    overflow: hidden;
+}
+
+
+p{
+    display: flex;
+    width: 35vw;
+    font-size: 25px;
+}
+

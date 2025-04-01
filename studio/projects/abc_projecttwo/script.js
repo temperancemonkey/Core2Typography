@@ -152,19 +152,28 @@ colorButton.addEventListener('click', () => {
 
 //typeface changing button
 var typefaceButton = document.getElementById('typeface');
-const fontFamily =[ 'Space Mono, monospace', 'Funnel Display, sans-serif', 'Finlandica, sans-serif', '"Nova Cut", system-ui', '"Arbutus", serif', '"Almendra Display", serif', '"Jacquard 24", system-ui' ];
+const fontFamily =[ 'Space Mono, monospace', 'Funnel Display, sans-serif', 'Finlandica, sans-serif', 'Nova Cut, system-ui', 'Arbutus, serif', 'Almendra Display, serif', 'Jacquard 24, system-ui' ];
 let typefaceIndex = 0;
 
 typefaceButton.addEventListener('click', () => {
-  var currentFont = document.body.style.fontFamily;
+  var currentFont = fontFamily[typefaceIndex]
 
-  document.body.style.fontFamily = fontFamily[typefaceIndex];
+  document.body.style.fontFamily = currentFont;
 
   typefaceIndex = (typefaceIndex + 1) % fontFamily.length;
 
-
+  typefaceSelect.value = currentFont;
 
 });
 
 //drop down selection of typefaces
+var typefaceSelect = document.querySelector('select[name="differentfonts"]');
 
+typefaceSelect.addEventListener('change', () => {
+
+console.log(typefaceSelect.value);
+var currentFont = typefaceSelect.value;
+
+document.body.style.fontFamily = currentFont;
+
+});

@@ -37,6 +37,8 @@ button:hover{
 
 
 
+
+
 #typeface{
     position: absolute;
     font-size: 30px;
@@ -58,4 +60,22 @@ button:hover{
     left: 45vw;
 
     
+}
+
+.about{
+    display: flex;
+    position: absolute;
+    bottom: 5.3vw;
+    left: 5vw;
+    background-color: rgb(225, 225, 225);
+    height: 2vw;
+    width: 2vw;
+    border-radius: 50%;
+}
+
+.about:hover{
+    background-color: black;
+    height: 3vw;
+    width: 3vw;
+    transition-duration: 3s;
 }
