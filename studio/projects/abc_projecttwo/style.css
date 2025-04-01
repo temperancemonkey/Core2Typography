@@ -36,7 +36,20 @@ button:hover{
 }
 
 
+#backgroundcolor{
+    display: flex;
+    position: absolute;
+    bottom: 5.3vw;
+    left: 93vw;
+    background-color: rgb(225, 225, 225);
+    height: 2vw;
+    width: 2vw;
+    border-radius: 50%;
+}
 
+#backgroundcolor:hover{
+    background-color: black;
+}
 
 
 #typeface{
@@ -62,6 +75,7 @@ button:hover{
     
 }
 
+
 .about{
     display: flex;
     position: absolute;
@@ -75,7 +89,5 @@ button:hover{
 
 .about:hover{
     background-color: black;
-    height: 3vw;
-    width: 3vw;
-    transition-duration: 3s;
 }
+

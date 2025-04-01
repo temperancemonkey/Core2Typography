@@ -128,7 +128,7 @@ buttons.forEach((button) => {
     // show the output    
     output.innerHTML = `
       <p>${ matchingEntry.text }</p>
-    `;    
+    `;  
     
     // hide the input
     input.style.display = 'none';
@@ -166,6 +166,20 @@ typefaceButton.addEventListener('click', () => {
 
 });
 
+//change background color button
+var backgroundcolorButton = document.getElementById('backgroundcolor');
+const backgroundColor =['red', 'orange', 'yellow', 'green', 'blue', 'purple'];
+
+backgroundcolorButton.addEventListener('click', () => {
+  var currentColor = backgroundColor[colorIndex];
+  
+  document.body.style.backgroundColor = backgroundColor[colorIndex];
+
+
+  colorIndex = (colorIndex + 1) % backgroundColor.length;
+
+});
+
 //drop down selection of typefaces
 var typefaceSelect = document.querySelector('select[name="differentfonts"]');
 
@@ -177,3 +191,5 @@ var currentFont = typefaceSelect.value;
 document.body.style.fontFamily = currentFont;
 
 });
+
+
