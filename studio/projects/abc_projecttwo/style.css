@@ -7,8 +7,6 @@ body{
     display: flex;
 }
 
-
-
 button{
     position: relative;
     font-family: "Finlandica", sans-serif;
@@ -35,7 +33,6 @@ button:hover{
     font-size: 80px;
 }
 
-
 #backgroundcolor{
     display: flex;
     position: absolute;
@@ -51,7 +48,6 @@ button:hover{
     background-color: black;
 }
 
-
 #typeface{
     position: absolute;
     font-size: 30px;
@@ -66,15 +62,11 @@ button:hover{
     bottom: 5vw;
 }
 
-
 .main{
     position: absolute;
     bottom: 5.5vw;
-    left: 45vw;
-
-    
+    left: 45vw; 
 }
-
 
 #wipe{
     display: flex;
@@ -91,3 +83,4 @@ button:hover{
     background-color: black;
 }
 
+/* output animation */
