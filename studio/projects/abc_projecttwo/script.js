@@ -192,4 +192,15 @@ document.body.style.fontFamily = currentFont;
 
 });
 
+//blank slate button
+var wipeButton = document.querySelector('#wipe')
+
+wipeButton.addEventListener('click', () => {
+  
+  output.innerHTML = '';
+
+  document.body.style.backgroundColor = 'white';
+
+});
+
 

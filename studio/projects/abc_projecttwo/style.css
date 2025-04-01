@@ -76,7 +76,7 @@ button:hover{
 }
 
 
-.about{
+#wipe{
     display: flex;
     position: absolute;
     bottom: 5.3vw;
@@ -87,7 +87,7 @@ button:hover{
     border-radius: 50%;
 }
 
-.about:hover{
+#wipe:hover{
     background-color: black;
 }
 
