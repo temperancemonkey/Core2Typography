@@ -22,7 +22,8 @@ body{
     border-radius: 50vw;
     background-color: rgb(255, 213, 29);
     font-family: "Podkova", serif;
-    border: dashed .2vw white;
+    border: none;
+    /* border: dashed .2vw white; */
     z-index: 100;
 
 }
@@ -30,6 +31,8 @@ body{
 .organize:hover{
     background-color: rgb(225, 188, 25);
 }
+
+
 
 .car{
     position: absolute;
@@ -95,4 +98,83 @@ body{
     width: auto;
     z-index: 1;
 }
+
+.altafulla{
+    position: absolute;
+    top: 15vw;
+    right: -5vw;
+    height: 20vw;
+    width: auto;
+    background-color: transparent;
+    border: none;
+    rotate: 90deg;
+}
+
+#altafulla{
+    height: 30vw;
+    width: auto;
+}
+
+.bowtie{
+    position: absolute;
+    right: 5vw;
+    height: 20vw;
+    width: auto;
+    background-color: transparent;
+    border: none;
+    rotate: 15deg;
+}
+
+#bowtie{
+    height: 30vw;
+    width: auto;
+}
+
+.hk{
+    position: absolute;
+    right: 25vw;
+    height: 20vw;
+    width: auto;
+    background-color: transparent;
+    border: none;
+}
+
+#hk{
+    height: 30vw;
+    width: auto;
+    z-index: 1;
+}
+
+.isla{
+    position: absolute;
+    bottom: 5vw;
+    right: 25vw;
+    height: 20vw;
+    width: auto;
+    background-color: transparent;
+    border: none;
+}
+
+#isla{
+    height: 30vw;
+    width: auto;
+    z-index: 1;
+}
+
+.heart{
+    position: absolute;
+    top: -5vw;
+    right: 30vw;
+    height: 20vw;
+    width: auto;
+    background-color: transparent;
+    border: none;
+}
+
+#heart{
+    height: 40vw;
+    width: auto;
+    z-index: 1;
+}
+
 
