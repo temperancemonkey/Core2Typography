@@ -1,0 +1,98 @@
+body{
+    font-family: "Podkova", serif;
+    font-weight: 400;
+    display: flex;
+    overflow: hidden;
+}
+
+.logo{
+    position: absolute;
+    top: 25vw;
+    left: -18vw;
+    scale: 50%;
+}
+
+.organize{
+    position: absolute;
+    justify-content: left;
+    padding: 1vw;
+    margin: 2vw;
+    height: 5vw;
+    width: 15vw;
+    border-radius: 50vw;
+    background-color: rgb(255, 213, 29);
+    font-family: "Podkova", serif;
+    border: dashed .2vw white;
+    z-index: 100;
+
+}
+
+.organize:hover{
+    background-color: rgb(225, 188, 25);
+}
+
+.car{
+    position: absolute;
+    left: 15vw;
+    height: 20vw;
+    width: 20vw;
+    background-color: transparent;
+    border: none;
+}
+
+#car{
+    height: 25vw;
+    width: auto;
+    z-index: 1;
+}
+
+.gremlin{
+    position: absolute;
+    bottom: 5vw;
+    left: 70vw;
+    height: 20vw;
+    width: 20vw;
+    background-color: transparent;
+    border: none;
+}
+
+#gremlin{
+    height: 25vw;
+    width: auto;
+    z-index: 1;
+}
+
+.guy{
+    position: absolute;
+    top: 12vw;
+    left: -10vw;
+    height: 20vw;
+    width: auto;
+    background-color: transparent;
+    border: none;
+    rotate: 15deg;
+}
+
+#guy{
+    height: 30vw;
+    width: auto;
+    z-index: 1;
+}
+
+.saab{
+    position: absolute;
+    top: 10vw;
+    left: 30vw;
+    height: 20vw;
+    width: auto;
+    background-color: transparent;
+    border: none;
+    rotate: 20deg;
+}
+
+#saab{
+    height: 30vw;
+    width: auto;
+    z-index: 1;
+}
+

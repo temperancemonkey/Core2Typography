@@ -1,5 +1,5 @@
 body{
-	font-family: "Space Mono", serif;
+	font-family: "Podkova", serif;
 	overflow: hidden;
 }
 
@@ -10,7 +10,97 @@ header{
 	align-items: center;
   top: 10px;
   font-size: 35px;
+  color: rgb(23, 58, 135);
+
+
+  
 }
+
+.t{
+  animation-timing-function: ease-in-out; 
+  transform-origin: 50% 50%;
+  animation-name: animation;
+  /* animation-duration: 8s; */
+  animation-direction: alternate;
+  animation: animationone 10s linear 2s infinite alternate;
+}
+
+
+.eone{
+  animation-delay: 4s;
+  transform-origin: 50% 50%;
+  animation-name: animation;
+  /* animation-duration: 8s; */
+  animation-direction: alternate;
+  animation: animationtwo 10s linear 2s infinite alternate;
+  animation-timing-function: ease-in-out; 
+}
+
+.m{
+  animation-delay: 4s;
+  transform-origin: 50% 50%;
+  animation-name: animation;
+  /* animation-duration: 8s; */
+  animation-direction: alternate;
+  animation: animationm 10s linear 2s infinite alternate;
+}
+
+@keyframes animationone{
+  0%{transform: translateX(0) translateY(0);}
+  10%{transform: translateX(-5vw) translateY(5vw);}
+  20%{transform: translateX() translateY(10vw);}
+  30%{transform: translateX(-10vw) translateY(15vw);}
+  40%{transform: translateX() translateY(20vw);}
+  50%{transform: translateX(-15vw) translateY(25vw);}
+  60%{transform: translateX(-15vw) translateY(30vw);}
+  70%{transform: translateX() translateY(35vw);}
+  80%{transform: translateX(5) translateY(40vw);}
+  90%{transform: translateX(10) translateY(45vw);}
+  100%{transform: translateX(20) translateY(50vw);}
+}
+
+
+
+/* @keyframes animationone{
+  0%{
+    transform: translateX(-5vw) translateY(5vw);
+  }
+  10%{
+    transform: translateX(-10vw) translateY(10vw);
+  }
+  20%{
+    transform: translateX(-20vw) translateY(20vw);
+  }
+  30%{
+    transform: translateX(-30vw) translateY(30vw);
+  }
+  40%{
+    transform: translateX(-30vw) translateY(30vw);
+  }
+  50%{
+    transform: translateX(-20vw) translateY(20vw);
+  }
+  60%{
+    transform: translateX(-10vw) translateY(10vw);
+  }
+  70%{
+    transform: translateX(5vw) translateY(5vw);
+  }
+  80%{
+    transform: translateX(10vw) translateY(10vw);
+  }
+  90%{
+    transform: translateX(20vw) translateY(20vw);
+  }
+  100%{
+    transform: translateX(10vw) translateY(10vw);
+  }
+} */
+
+
+
+
+
 
 svg{
   position: absolute;
@@ -39,15 +129,16 @@ svg{
 } */
 
 .dropbtn {
-	  font-family: "Space Mono", serif;
+  font-family: "Podkova", serif;
     font-size: 25px;
     border: none;
-	  background-color: white;
+	  background-color: transparent;
+    color: rgb(23, 58, 135);
   }
   
-.dropbtn:hover{
-	color: goldenrod;
-}
+/* .dropbtn:hover{
+	color: rgb(23, 58, 135);
+} */
 
   .dropdown {
     position: absolute;
@@ -57,7 +148,7 @@ svg{
   }
   
   .dropdown-content {
-	  font-family: "Space Mono", serif;
+	  font-family: "Podkova", serif;
     display: none;
     position: absolute;
     min-width: 160px;
@@ -68,12 +159,11 @@ svg{
     font-size: 20px;
     text-decoration: none;
     display: block;
-	  color: black;
+	  background-color: transparent;
+    color: rgb(23, 58, 135);
   }
 
-  .dropdown-content a:hover{
-	color: goldenrod;
-  }
+  
 
 .dropdown:hover .dropdown-content {display: block;}
 
