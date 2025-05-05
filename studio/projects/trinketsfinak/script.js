@@ -597,7 +597,7 @@ const data = [
         },
         {
           "name": "temperance",
-          "text": "<p>My first trinket or object is my pink blanket that my grandma made for me when I was a baby. I used to suck my thumb and my parents tried to make me stop by stealing my blankets, but telling me it was the tooth fairy. I had a winnie the pooh blanket before this one, and one day I lost a tooth and my blanket was gone. I remember sobbing until I threw up and then I found my pink blanket and started to get really stressed when one of my teeth would fall out. I started leaving threatening messages to the tooth fairy whenvere I lost a tooth, and my pink blanket never went missing and I have had it till this day! My next object is a Littlest Pet Shop. I grew up playing with these, I took LPS very seriously and played with them long after all my freinds stopped playing with them. I used to have whole set ups of houses in the middle of our living room at home and sometimes I think about how nice it was that my parents stepped over it and let me keep them up for a week before telling me to clean it all up. </p>"
+          "text": "<p>These are my trinkets that I chose. The first is a blanket from my grandma. When I was younger I used to suck my thumb and I had this Winnie the pooh blanket that I cherished. My parents hated that I sucked my thumb, so they made it up that the tooth fairy would come and take my blanket. Now that I am writing this I don't know why they did that. But indeed, one day I lost a tooth and my blanket went missing. I remember crying till I threw up and then whenever I lost a tooth I would get extremely anxious about having my new blanket stolen so I would leave threatening messages under my pillow to the tooth fairy. Clearly my parents felt terrible from the first time so my blanket was never stolen again and I have it to this day. My next item is my pillow which I called my 'ho-ho' pillow growing up because it is Christmas themed. I got this from my aupair Arial growing up. She left it behind when she stopped working for us and I kept it ever since. My third trinket is a Littlest Pet Shop. I was obsessed with LPS growing up, all of my friends were too. I played with them for a little too long, long after my friends stopped playing with them. I used to have whole houses set up for them in the middle of the living room and sometimes I think about how nice it is that my parents let me keep those up for days at a time. I used to leave notes near those too in all capitals saying DO NOT TOUCH. I took it very seriously and will never give my LPS away. My last two, and most recent items are from this year. They are little trinkets from Anna which she gives to all her friends. I love them because, and I have spoken on this in a few of my interviews, but it is so nice to receive a gift and know that someone is thinking of you.</p>"
         }
         
       ];
@@ -627,5 +627,7 @@ const data = [
   
       })
   })
+
+  
   
   
