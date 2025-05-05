@@ -102,15 +102,15 @@ const data = [
   
           <p><strong>AB:</strong> Next is going to be this. The last two have both come into my life very recently actually. This next one is a little guy I got for Christmas this year from my mother. It is Gizmo from *Gremlins* in a little Santa hat and he is sitting inside the box that he came in with little Christmas lights, and he actually plays music. He does his little singing and his lights light up in sync. That's what he sings to help calm himself down when everything goes really chaotic in the movie.</p>
   
-  <p><strong>AB:</strong> *Gremlins* has been one of my most beloved and favourite films for my entire life as long as I can remember. It's one of the ones that I go back to over and over again, I own it in many different forms. And this character is one that I have always loved and admired so much and I just think it's incredible — just like a reminder of my love for film, as well as my being grateful that my mom got it for me.</p>
+          <p><strong>AB:</strong> *Gremlins* has been one of my most beloved and favourite films for my entire life as long as I can remember. It's one of the ones that I go back to over and over again, I own it in many different forms. And this character is one that I have always loved and admired so much and I just think it's incredible — just like a reminder of my love for film, as well as my being grateful that my mom got it for me.</p>
   
-  <p><strong>TD:</strong> I've eaten many meals with him staring right at me.</p>
+          <p><strong>TD:</strong> I've eaten many meals with him staring right at me.</p>
+      
+          <p><strong>AB:</strong> Yes, he sits on our shelf so he looks at us. A lot of the trinkets we have just kind of watch.</p>
   
-  <p><strong>AB:</strong> Yes, he sits on our shelf so he looks at us. A lot of the trinkets we have just kind of watch.</p>
+          <p><strong>TD:</strong> Peek. I'm actually staring at myself right now and I look quite hunky dory. I think that this one — and this is going to tie to your next one that you're going to show — because you like to give trinkets, which is really nice. And I think that receiving a trinket, it's nice to feel seen in that way of being given something that you are like, “oh my gosh yes you know me.”</p>
   
-  <p><strong>TD:</strong> Peek. I'm actually staring at myself right now and I look quite hunky dory. I think that this one — and this is going to tie to your next one that you're going to show — because you like to give trinkets, which is really nice. And I think that receiving a trinket, it's nice to feel seen in that way of being given something that you are like, “oh my gosh yes you know me.”</p>
-  
-  <p><strong>AB:</strong> Yes, I am very bad at receiving gifts. I think because I feel like my whole life I have never gotten a gift that made me feel like someone understood me. So I just would rather not receive gifts, but we're working through it. Kind of. Until someone gives me a good gift. I have received many gifts that I love a lot, but sometimes I feel like people know me better than they do and then I expect more than they have to give — which is not on them, a lot of the time it’s on me and my unrealistic expectations. But I just have a lot of problems in my head, I don't know if that's what you're looking to get into right now.</p>
+         <p><strong>AB:</strong> Yes, I am very bad at receiving gifts. I think because I feel like my whole life I have never gotten a gift that made me feel like someone understood me. So I just would rather not receive gifts, but we're working through it. Kind of. Until someone gives me a good gift. I have received many gifts that I love a lot, but sometimes I feel like people know me better than they do and then I expect more than they have to give — which is not on them, a lot of the time it’s on me and my unrealistic expectations. But I just have a lot of problems in my head, I don't know if that's what you're looking to get into right now.</p>
   
   <p><strong>TD:</strong> Well, I guess that this is different because I am not very materialistic. My love language is not gift giving. I don’t want to say I'm bad at giving gifts but I just don't find huge meaning in it. I'm like, “okay, you got me a gift, but it's my birthday — of course people get gifts on birthdays.” That's just how I am. But yeah, I think sometimes people get gifts, but a lot of times gifts are more a reflection of how somebody thinks they see you. And I don't think I've gotten a lot of gifts that I’m like, “oh my god, you get me.” It's more like, you think I would like this — but really it has more to do with you than me.</p>
   
@@ -601,33 +601,72 @@ const data = [
         }
         
       ];
-  
-  
-  var buttons = document.querySelectorAll('button');
-  
-  
-  var input = document.querySelectorAll('.input');
-  var output = document.querySelector('.output');
-  
-  
-  buttons.forEach((button) => {
-      button.addEventListener('click', () => {
-  
-          var name = button.name;
-  
-          var matchingEntry = data.find((entry) => {
-            return entry.name == name;
-          });
-  
-          output.innerHTML = `
-          <p>${ matchingEntry.text}</p>`;
-  
-          
-  
-  
-      })
-  })
 
-  
-  
-  
+
+
+
+            var buttons = document.querySelectorAll('button');
+
+
+            var input = document.querySelectorAll('.input');
+            var output = document.querySelector('.output');
+
+
+            buttons.forEach((button) => {button.addEventListener('click', () => {
+
+              var name = button.name;
+
+              var matchingEntry = data.find((entry) => {
+                return entry.name == name;
+              });
+
+              output.innerHTML = `
+          <p>${matchingEntry.text}</p>`;
+
+
+
+
+            })})
+
+// trinket button
+
+const trinketsButton = document.querySelector('.trinketsbutton');
+const trinketDisplay = document.querySelector('.trinket-display');
+
+const trinketImage = [
+  "/assets/car.png",
+  "/assets/cup.png",
+  "/assets/gremlin.png",
+  "/assets/heart.png",
+  "/assets/keychain.png",
+  "/assets/knot.png",
+  "/assets/littleguy.png",
+  "/assets/picture.png",
+  "/assets/saab.png"
+];
+
+let trinketIndex = 0;
+
+if (trinketsButton) {
+  trinketsButton.addEventListener('click', () => {
+    let img = trinketDisplay.querySelector('img');
+
+    if (!img) {
+      img = document.createElement('img');
+      img.width = 100;
+      img.alt = 'Trinket';
+      trinketDisplay.appendChild(img);
+    }
+
+    img.src = trinketImage[trinketIndex];
+    trinketIndex = (trinketIndex + 1) % trinketImage.length;
+  });
+}
+
+
+
+
+
+
+
+
