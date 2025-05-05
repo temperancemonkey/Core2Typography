@@ -201,6 +201,7 @@ wipeButton.addEventListener('click', () => {
 
   document.body.style.backgroundColor = 'white';
 
+  
 });
 
 
