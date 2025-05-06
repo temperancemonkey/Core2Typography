@@ -596,8 +596,8 @@ const data = [
           </p>`
         },
         {
-          "name": "temperance",
-          "text": "<p>These are my trinkets that I chose. The first is a blanket from my grandma. When I was younger I used to suck my thumb and I had this Winnie the pooh blanket that I cherished. My parents hated that I sucked my thumb, so they made it up that the tooth fairy would come and take my blanket. Now that I am writing this I don't know why they did that. But indeed, one day I lost a tooth and my blanket went missing. I remember crying till I threw up and then whenever I lost a tooth I would get extremely anxious about having my new blanket stolen so I would leave threatening messages under my pillow to the tooth fairy. Clearly my parents felt terrible from the first time so my blanket was never stolen again and I have it to this day. My next item is my pillow which I called my 'ho-ho' pillow growing up because it is Christmas themed. I got this from my aupair Arial growing up. She left it behind when she stopped working for us and I kept it ever since. My third trinket is a Littlest Pet Shop. I was obsessed with LPS growing up, all of my friends were too. I played with them for a little too long, long after my friends stopped playing with them. I used to have whole houses set up for them in the middle of the living room and sometimes I think about how nice it is that my parents let me keep those up for days at a time. I used to leave notes near those too in all capitals saying DO NOT TOUCH. I took it very seriously and will never give my LPS away. My last two, and most recent items are from this year. They are little trinkets from Anna which she gives to all her friends. I love them because, and I have spoken on this in a few of my interviews, but it is so nice to receive a gift and know that someone is thinking of you.</p>"
+          "name": "about",
+          "text": "<p>Thinkits&Trinkets is about how our trinkets and collections inform our lives, memories, and nostalgia.</p>"
         }
         
       ];
