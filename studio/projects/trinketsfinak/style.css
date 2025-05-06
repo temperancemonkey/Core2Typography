@@ -131,12 +131,14 @@ html{
 }
 
 .input button {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     font-family: "Podkova", serif;
     background-color: transparent;
     border: none;
+    top: 3.5vw;
     font-size: 2vw;
     margin-bottom: 3vw;
 }
@@ -161,26 +163,78 @@ button:hover{
 }
 
 .trinketsbutton {
-    position: relative;
-    background-color: rgb(143, 226, 143);
-    height: auto;
-    width: 5vw;
+    position: absolute;
+    display: flex;
+    background-color: rgb(255, 156, 49);
+    height: 1vw;
+    width: 1vw;
     padding: 1vw;
     border-radius: 50%;
     border: dashed 1px white;
-    top: 5.2vw;
-    left: 19.5vw;
+    top: 6vw;
+    left: 40vw;
   }
   
-  .trinket-display {
+  /* .trinket-display {
     position: absolute;
     display: block;
     left: 70vw;
     top: 30vw;
     height: 50%;
     width: auto;
+  } */
+
+  .trinketscath {
+    position: absolute;
+    display: flex;
+    background-color: rgb(143, 226, 143);
+    height: 1vw;
+    width: 1vw;
+    padding: 1vw;
+    border-radius: 50%;
+    border: dashed 1px white;
+    top: 11vw;
+    left: 40vw;
   }
   
+  .trinketsapril {
+    position: absolute;
+    display: flex;
+    background-color: rgb(255, 88, 194);
+    height: 1vw;
+    width: 1vw;
+    padding: 1vw;
+    border-radius: 50%;
+    border: dashed 1px white;
+    top: 16vw;
+    left: 40vw;
+  }
+
+  .trinketsissepa {
+    position: absolute;
+    display: flex;
+    background-color: rgb(50, 31, 255);
+    height: 1vw;
+    width: 1vw;
+    padding: 1vw;
+    border-radius: 50%;
+    border: dashed 1px white;
+    top: 21.5vw;
+    left: 40vw;
+  }
+
+  .trinketstemp {
+    position: absolute;
+    display: flex;
+    background-color:  rgb(255, 93, 29);
+    height: 1vw;
+    width: 1vw;
+    padding: 1vw;
+    border-radius: 50%;
+    border: dashed 1px white;
+    top: 27.5vw;
+    left: 40vw;
+  }
 
 
 

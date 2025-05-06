@@ -630,38 +630,38 @@ const data = [
 
 // trinket button
 
-const trinketsButton = document.querySelector('.trinketsbutton');
-const trinketDisplay = document.querySelector('.trinket-display');
+// const trinketsButton = document.querySelector('.trinketsbutton');
+// const trinketDisplay = document.querySelector('.trinket-display');
 
-const trinketImage = [
-  "/assets/car.png",
-  "/assets/cup.png",
-  "/assets/gremlin.png",
-  "/assets/heart.png",
-  "/assets/keychain.png",
-  "/assets/knot.png",
-  "/assets/littleguy.png",
-  "/assets/picture.png",
-  "/assets/saab.png"
-];
+// const trinketImage = [
+//   "/assets/car.png",
+//   "/assets/cup.png",
+//   "/assets/gremlin.png",
+//   "/assets/heart.png",
+//   "/assets/keychain.png",
+//   "/assets/knot.png",
+//   "/assets/littleguy.png",
+//   "/assets/picture.png",
+//   "/assets/saab.png"
+// ];
 
-let trinketIndex = 0;
+// let trinketIndex = 0;
 
-if (trinketsButton) {
-  trinketsButton.addEventListener('click', () => {
-    let img = trinketDisplay.querySelector('img');
+// if (trinketsButton) {
+//   trinketsButton.addEventListener('click', () => {
+//     let img = trinketDisplay.querySelector('img');
 
-    if (!img) {
-      img = document.createElement('img');
-      img.width = 100;
-      img.alt = 'Trinket';
-      trinketDisplay.appendChild(img);
-    }
+//     if (!img) {
+//       img = document.createElement('img');
+//       img.width = 100;
+//       img.alt = 'Trinket';
+//       trinketDisplay.appendChild(img);
+//     }
 
-    img.src = trinketImage[trinketIndex];
-    trinketIndex = (trinketIndex + 1) % trinketImage.length;
-  });
-}
+//     img.src = trinketImage[trinketIndex];
+//     trinketIndex = (trinketIndex + 1) % trinketImage.length;
+//   });
+// }
 
 
 
