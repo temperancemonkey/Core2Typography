@@ -2,136 +2,72 @@ body{
     font-family: "Podkova", serif;
     overflow: hidden;
     cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" fill="none" stroke="black" stroke-width="2"/></svg>') 10 10, auto;
+    user-select: none;
 }
 
 html{
     cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" fill="none" stroke="black" stroke-width="2"/></svg>') 10 10, auto;
 }
 
-/* .about{
-    position: relative;
-    left: 25vw;
-    font-size: 2vw;
-    color: black;
-    text-decoration: none;
-    top: 1vw;
-} */
-
-/* .about:hover{
-    color: rgb(255, 88, 194);
-    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" fill="none" stroke="black" stroke-width="2"/></svg>') 10 10, auto;
-} */
-
 .contributers{
     position: relative;
     font-size: 2vw;
     top: 1vw;
     left: 1vw;
-}
-/* 
-.lines{
-    position: absolute;
-    background-color: black;
-    padding: .05vw;
-    width: 50vw;
-    margin: 1vw;
-    left: -5vw;
-    top: 4vw;
-}
+    text-decoration: none;
+    color: black;
+    
+} 
 
-.lineone{
-    position: absolute;
-    background-color: black;
-    padding: .05vw;
-    width: 50vw;
-    margin: 1vw;
-    left: -5vw;
-    top: 9vw;
-}
 
-.linetwo{
-    position: absolute;
-    background-color: black;
-    padding: .05vw;
-    width: 50vw;
-    margin: 1vw;
-    left: -5vw;
-    top: 14vw;
-}
-
-.linethree{
-    position: absolute;
-    background-color: black;
-    padding: .05vw;
-    width: 50vw;
-    margin: 1vw;
-    left: -5vw;
-    top: 19vw;
-}
-
-.linefour{
-    position: absolute;
-    background-color: black;
-    padding: .05vw;
-    width: 50vw;
-    margin: 1vw;
-    left: -5vw;
-    top: 25vw;
-}
-
-.linefive{
-    position: absolute;
-    background-color: black;
-    padding: .05vw;
-    width: 50vw;
-    margin: 1vw;
-    left: -5vw;
-    top: 31vw;
-}
-
-.vertical{
-    position: absolute;
-    background-color: black;
-    padding: .05vw;
-    height: 370vw;
-    left: 46vw;
-    top: -5vw;
-    z-index: 5;
-} */
 
 
 .bottom {
-    position: fixed; 
+    position: fixed;
     bottom: 0;
     left: 0;
     width: 45vw;
-    height: 48.6vh; 
-    overflow-y: auto; 
-    z-index: 10; 
-    display: flex; 
-}
+    height: 48.6vh;
+    overflow-y: auto;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    resize: vertical;
+    overflow: hidden;
+    cursor: ns-resize; 
+    background-color: #f1f1f1;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+  }
+  
 
-.output {
+  .output {
     position: relative;
-    width: 500px; 
-    height: 300px;
+    width: 100%;
+    height: 100%;
     padding: 20px;
-    left: 1vw;
-}
+    box-sizing: border-box; 
+    overflow-y: auto; 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    word-wrap: break-word; 
+  }
+  
+  
 
 
-
-.right{
-    position: absolute;
-    background-color: rgb(234, 234, 234);
-    border: 8px dashed white;
-    padding: 9vw;
-    width: 36.9vw;
-    height: 1000vw;
-    right: -1vw;
-    top: -1vw;
-    z-index: -100; 
-}
+.right {
+    position: fixed;
+    background-color: rgb(255, 166, 222);
+    border-left: dashed 15px white;
+    padding: 2vw;
+    width: 50vw;
+    height: 1000vh;
+    right: 0;
+    top: 0;
+    z-index: 10;
+  }
 
 .input button {
     position: relative;
@@ -178,75 +114,4 @@ button:hover{
     top: 6vw;
     left: 40vw;
   }
-  
-  /* .trinket-display {
-    position: absolute;
-    display: block;
-    left: 70vw;
-    top: 30vw;
-    height: 50%;
-    width: auto;
-  } */
-
-  .trinketscath {
-    position: absolute;
-    display: flex;
-    background-color: rgb(143, 226, 143);
-    height: 1vw;
-    width: 1vw;
-    padding: 1vw;
-    border-radius: 50%;
-    border: dashed 1px white;
-    top: 11vw;
-    left: 40vw;
-  }
-  
-  .trinketsapril {
-    position: absolute;
-    display: flex;
-    background-color: rgb(255, 88, 194);
-    height: 1vw;
-    width: 1vw;
-    padding: 1vw;
-    border-radius: 50%;
-    border: dashed 1px white;
-    top: 16vw;
-    left: 40vw;
-  }
-
-  .trinketsissepa {
-    position: absolute;
-    display: flex;
-    background-color: rgb(50, 31, 255);
-    height: 1vw;
-    width: 1vw;
-    padding: 1vw;
-    border-radius: 50%;
-    border: dashed 1px white;
-    top: 21.5vw;
-    left: 40vw;
-  }
-
-  .trinketstemp {
-    position: absolute;
-    display: flex;
-    background-color:  rgb(255, 93, 29);
-    height: 1vw;
-    width: 1vw;
-    padding: 1vw;
-    border-radius: 50%;
-    border: dashed 1px white;
-    top: 27.5vw;
-    left: 40vw;
-  }
-
-
-
-
-
-
-
-
-
-
 

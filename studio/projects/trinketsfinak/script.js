@@ -1,6 +1,7 @@
 const data = [
     {
       "name": "anna",
+      "image": ["/anna/assets/car.png", "/anna/assets/gremlin.png","/anna/assets/man.png", "/anna/assets/saab.png"],
       "text": `<p><p><strong>Temperance Downing: </strong><p>State your name and occupation.</p>
   
           <strong>Anna Bolla: </strong><p>My name is Anna Bolla, I am a fashion designer, concert photographer, and all around great person.</p>
@@ -152,9 +153,11 @@ const data = [
   
           
           </p>`
+
     },
     {
       "name": "catherine",
+      "image": ["/catherine/assets/keychain.png", "/catherine/assets/picture.png","/catherine/assets/cup.png", "/catherine/assets/knot.png", "/catherine/assets/heart.png"],
       "text": `<p><strong>Catherine Smart-Estella:</strong><p> My name's Catherine Smart, Catherine Smart-Estella. Catherine Marie Smart Estella. 
   
       <p><strong>Temperance Downing: </strong>Hey, and what is your occupation?Where do you go? </p>
@@ -454,6 +457,7 @@ const data = [
     },
     {
       "name": "issepa",
+      "image": ["/issepa/assets/notebookone.png", "/issepa/assets/notebooktwo.png","/issepa/assets/notebookthree.png", "/issepa/assets/notebookfour.png", "/issepa/assets/notebookfive.png", "/issepa/assets/notebooksix.png", "/issepa/assets/notebookseven.png"],
       "text": `<p><strong>Issepa Galilea:</strong> You know, like the child's notebooks? I don't know if you know?  </p>
   
           <p><strong>Temperance Downing:</strong> No, I don't. </p>
@@ -596,6 +600,291 @@ const data = [
           </p>`
         },
         {
+          "name": "april",
+          "image": ["/april/assets/panda.png", "/april/assets/elephant.png","/april/assets/car.png", "/april/assets/box.png"],
+          "text": `<p><strong>Temperance Downing:</strong> Oh, man. Sit down. Today I am here with the April Hoffmeister. Some of you guys may know her. um, you know, some of y'all may smell her. Some of you may hear her but ya, this is her. Do you wanna say something? </p>
+
+          <p><strong>April Hoffmeister:</strong> Yes.</p>
+          
+          <p><strong><p><strong>TD:</strong> :</strong>  introduce yourself. </p>
+          
+          <p><strong>AH:</strong> : My name is April, and I am so grateful to be part of this like process. I know Temperance has been working really hard on this and, you know, seeing it come to fruition is just amazing and just to be able to, like, experience this as a person, I'm just so grateful, yeah. </p>
+          
+          <p><strong>TD:</strong> : Are these your AirPods? Are they apart of this?</p>
+          
+          <p><strong>AH:</strong> : And for the viewers or for the listeners, I just opened up Temperance’s AirPods and damn. </p>
+          
+          <p><strong>TD:</strong> : No, it's like the bubonic plague inside. Okay, anyways, God, like, this is about you, though.</p>
+          
+          <p><strong>AH:</strong> :  it's about me so it's gonna be about you. </p>
+          
+          <p><strong>TD:</strong> : Christ, okay. start with your first object. </p>
+          
+          <p><strong>AH:</strong> : Okay, I'm gonna start with this mammoth. </p>
+          
+          <p><strong>TD:</strong> : Um, is that a mammoth or an elephant?</p>
+          
+          <p><strong>AH:</strong> : That's a mammoth. </p>
+          
+          <p><strong>TD:</strong> : How do you know? That looks like an elephant to me. </p>
+          
+          <p><strong>AH:</strong> : Okay, well, I'm gonna say to mammoth. </p>
+          
+          <p><strong>TD:</strong> : Okay. um</p>
+          
+          <p><strong>AH:</strong> : I feel like elephants aren't built this way anymore. Do you see the skull? Do you see how it like elongates that way? I fear this is a mammoth. </p>
+          
+          <p><strong>TD:</strong> : From the front it's very mammoth. </p>
+          
+          <p><strong>AH:</strong> : Minus the fur. That's this is a mammoth. But you know, she can be whatever she wants to be. By the way, I have a twin sister called Mae. and my mom got me and Mae these matching mammoths when we were born. </p>
+          
+          <p><strong>TD:</strong> : She was  like, they're going to be huge! </p>
+          
+          <p><strong>AH:</strong> : Yeah, she's like, my twins are so friggin huge. my small little stomach. They're gonna be. They're gonna be massive, so she was like the first thing that she thought of was a mammoth. She's the mammoth, of course. Anyway, we got this when we were born and then she always just wanted us to have this as a little symbol of protection. And I love to set this up in my room staring at me, um so that it protects me when I'm sleeping, because, you know, you know, the girls are crazy. </p>
+          
+          <p><strong>TD:</strong> : The ops are inside the house. </p>
+          
+          <p><strong>AH:</strong> : Exactly. um and I kind of think this is nice and I think I wanna do this when I have kids, because I feel like this is just like a symbol of, love, protection. And when I look at this, I think of my mom and my sister, who are the only, like female or girl, I guess women in our household. And that just holds a big, part of my heart, because, I just I just, I don't know, they are amazing and I aspire to be the women that they are. </p>
+          
+          <p><strong>TD:</strong> : That's really sweet and actually, Catherine has a little tie, basically from Spain. There's just things that you get from the church. I think it's religiously affiliated, but you can get these ties, like little knots. And they're supposed to be protection, so for the aunt whose religious,, she always goes asnd gets Catherine these and so it's like, she got that, she thought about her, she said, I want to protect you. and that's really sweet.</p>
+          
+          <p><strong>AH:</strong> :  I love that. That's very like, it shows that you care, you know what I mean? And I feel like I'm also a person where when I get people gifts, I'm like, okay, what can I get them that they will use for a long time and like reminds them of me and like, you know, there's just like anyways. I'm really bad at this. Like what? Okay. </p>
+          
+          <p><strong>TD:</strong> : Um, no, you're making great incredible points. </p>
+          
+          <p><strong>AH:</strong> : Thank you.</p>
+          
+          <p><strong>TD:</strong> :  Let's move on, though. </p>
+          
+          <p><strong>AH:</strong> : Okay, so next we have this um cabrio car. uh oh my God, I'm just noticing that at the back it says El Dorado. Is there a map inside? I'm like I found El Dorado? Am I going to find the treasure? I never noticed this. Do you see how this says El Dorado? Anyway, this is great. You guys, I might be a future billionaire. That's not the point. The point is that this is from my grandfather. He had an insane, insane car collection. He was a hoarder, okay? And in this like there's this little small Berlin apartment where my dad grew up in and in the back corner, he had this little back room, which I think used to be like the steward's room, you know what I mean? Like the maid's room? They didn’t have a maid so instead, he had this collection in there. And when he died, our grandma told us we can pick out one car, which, why just one. There were a lot of cars. Where did those cars go? I think she still has them there, but she let us pick out one car and I I think I was ten at the time. I was like, this pink cabrio is calling my name. It's really cute and the front flips up, so you can kind of play around with it. You can look at the engine, you know, see how it's made. and I don't know, now every time I move, I always take it with me and it's always just on my nightstand. And it's just a good reminder of my grandfather, but then also, like I feel like I’ve become him, you know. </p>
+          
+          <p><strong>TD:</strong> : You think you're your grandfather. </p>
+          
+          <p><strong>AH:</strong> :  I'm just like him. He's very stingey. </p>
+          
+          <p><strong>TD:</strong> : You're stingey?</p>
+          
+          <p><strong>AH:</strong> :  I'm a bit stingey. I actually don't know. I don't I don't know that yet. Well, it's just like he's very particular. I think that's the word.</p>
+          
+          <p><strong>TD:</strong> :  Are you? </p>
+          
+          <p><strong>AH:</strong> : I don't know, I just feel like I look like him. </p>
+          
+          <p><strong>TD:</strong> : Oh okay </p>
+          
+          <p><strong>AH:</strong> : Oh my God I'm like cringe city over here. Anyways, I don't know. I see myself in my grandfather a lot with like I guess maybe more in like how he gets involved with his work and his artcraft, he was a musician. So, I don't know. I also like to collect things now. </p>
+          
+          <p><strong>TD:</strong> : It is heavy.</p>
+          
+          <p><strong>AH:</strong> : These are expensive cars. Like they're not like stupid fucking cars. This is like expensive. Like he was ballen. You know, I'm trying to be ballen  like him with El dorado, you know. </p>
+          
+          <p><strong>TD:</strong> : We’re referring to the burrito place, right? </p>
+          
+          <p><strong>AH:</strong> : I'm referring to the treasure. </p>
+          
+          <p><strong>TD:</strong> : What's the treasure? </p>
+          
+          <p><strong>AH:</strong> :El Dorado treasure? </p>
+          
+          <p><strong>TD:</strong> :I don't know what that is. </p>
+          
+          <p><strong>AH:</strong> : Okay, so we'll search.</p>
+          
+          <p><strong>TD:</strong> :  I've been talking about the burrito place.</p>
+          
+          <p><strong>AH:</strong> : I've been talking about treasure. And you know what for a second I thought you were, but then you kept on going with it, so I was like, yeah, no, like Eldorado, like the treasure, like the gold mine. I don't know. We're gonna we're gonna search. </p>
+          
+          <p><strong>TD:</strong> : I need to be taught. </p>
+          
+          <p><strong>AH:</strong> : Yeah, it's okay. I'm just thinking about. Yeah, it it's Aldorado. It's called Eldorado, yeah, yeah. All good. </p>
+          
+          <p><strong>TD:</strong> : I was like oh, like your future. like you picked this out and not knowing that you would be devouring and getting as diarrhea a bunch of times from El Dorado. </p>
+          
+          <p><strong>AH:</strong> : But that's when I had the spices. That's when I asked to add the sauce. After the sauce comes, then diarrhea comes up. </p>
+          
+          <p><strong>TD:</strong> : Okay, well let's move on. I really don't understand. I'm sorry. </p>
+          
+          <p><strong>AH:</strong> : Next, what I have here is a little Pokémon um I guess it's like a box. The box is the blind box. Basically in here, when I opened it the first time I found a little keychain in there, which I added to my bag and since have lost, you know.</p>
+          
+          <p><strong>TD:</strong> :  I'm the only one who still has it. </p>
+          
+          <p><strong>AH:</strong> : Oh, God. Anyways, so Temperance still has it. um I got it for my two roommates Anna and Temperance, um and I got this from Dan's parents' house in City Island, Bronx New York, and um I don't know. The reason why I chose this was just because I love this sort of little ephemera that I feel is much underappreciated these days. I feel like just these little boxes that have cute graphics on them and just have such like, like tactile energy to them is just everything to me. And it's like most people would throw this out, like, without a doubt would throw this out. And something about it  just being, not even having any worth, like this is worth nothing, it makes it worth so much for me. like, I look at this and I'm reminded of a good memory and I'm reminded of, you know, this connects me to the keychain which I fucking lost, but also like this is all I have fucking left. This is all I have. and also it's just like nostalgic feeling, you know? And I wasn't even ever into Pokémon growing up. Anyways, so yeah, what do you have to say about this time? I feel like I've been fucking talking all this interview.</p>
+          
+          <p><strong>TD:</strong> : no, but I think also like this box it's been ripped open, so it's like usually people would just kind of rip it open, throw it to the side. but somebody took the time to design this.</p>
+          
+          <p><strong>AH:</strong> :  yes. </p>
+          
+          <p><strong>TD:</strong> : So I I get what you're saying, and I really like it. </p>
+          
+          <p><strong>AH:</strong> : And I just think the colors are so good. Yeah, like, I don't know why, like, imagine this, but on like a vape. </p>
+          
+          <p><strong>TD:</strong> : oh</p>
+          
+          <p><strong>AH:</strong> : No, no, what I'm trying to say is imagine this on a vape and now imagine this on the box. </p>
+          
+          <p><strong>TD:</strong> : This is such a vape box. like that's what I mean is this a blind box or a vape box? </p>
+          
+          <p><strong>AH:</strong> : That's what I mean, and that's what I love about it.</p>
+          
+          <p><strong>TD:</strong> : That’s why you kept it? </p>
+          
+          <p><strong>AH:</strong> : Yeah. I don't vape. I hate vapers, I am not for the vape culture. </p>
+          
+          <p><strong>TD:</strong> : She hates vapers. </p>
+          
+          <p><strong>AH:</strong> : Yeah.. Okay, the last thing I have here for the class is this little panda figurine. I got this in a blind box. and, um, what I really love about it is that it's interactive. A lot of the time these blind blind boxes aren’t interactive, but this guy is like the unmasked singer. And I don't know, he's just kind of funny. The first time I opened it, I got scared. Like, I genuinely was like, oh my God! I was like this is kind of scary, but I love it so much. and he sits on my nightstand and sometimes I knock him over. And I just feel like whoever made this took the time to look at the details. </p>
+          
+          <p><strong>TD:</strong> : Popmart kind of popped off. Popmart popped their puss. </p>
+          
+          <p><strong>AH:</strong> : They did. They popped they did they did. And this is like one of those things where it's just so well designed. I'm gonna have this forever. and it's just like the details are so good. </p>
+          
+          <p><strong>TD:</strong> : Is this a character from something or is it just like? </p>
+          
+          <p><strong>AH:</strong> : No, it's it's just a a blind box. </p>
+          
+          <p><strong>TD:</strong> : I love it. </p>
+          
+          <p><strong>AH:</strong> : Yeah, I love it, too. And when I got the blindbox, you know how you just guess and hope for the one you are going to get? I really didn’t want the panda. But now that I have it, I really love it. it's like a part of my heart now. </p>
+          
+          <p><strong>TD:</strong> : I love that.. I love that so much. Would you say you're a big collector of things? </p>
+          
+          <p><strong>AH:</strong> : Oh, yeah, and I think you know that. Would you say I'm a collector?</p>
+          
+          <p><strong>TD:</strong> : Yeah, I feel like you collect little trinkets. kind of along the way. I think you're more of an intentional collector, though. </p>
+          
+          <p><strong>AH:</strong> : Oh, wait, so what okay, wait. </p>
+          
+          <p><strong>TD:</strong> : Because like, okay, so let's talk about Catherine again, shout out to Catherine. She identifies more as a hoarder, like she will get a gift from someone and she's so sentimental and nostalgic that she'll keep, like, a little slice of the wrapping, because she has to, because she's like, oh, my God. </p>
+          
+          <p><strong>AH:</strong> : So, that's unintentional? </p>
+          
+          <p><strong>TD:</strong> : That's more like, oh, you feel obligated, like yeah, and then there's intentional for you where it's like, like, I feel like you have, like a bunch of books and stuff and you're like, oh, I'm gonna buy this. It's like it feels more like… intentional.</p>
+          
+          <p><strong>AH:</strong> :  I agree with you. No, no, I agree with it because when I was like 13, I had so many things that I didn't need, and I think they accumulated over time, and they meant nothing to me. They genuinely meant nothing to me. So that's when I had to think like, okay, what do I have that means something to me that I can keep that I will cherish? And like, for example, that car obviously was one of my things that was like, okay, I can never throw this out. same with the mammoth.She’s a mammoth, of course. like I have to keep her. I have to keep her. like there's just like little things like that. so I think that's what makes it intentional. It's like there is a meaning behind everything in my room. and I think once something loses its meaning, I fucking hate it. I'm like, get out of here. What are you doing in my room? Get out. </p>
+          
+          <p><strong>TD:</strong> : I used to be a hoarder. I was like, I need to keep everything. </p>
+          
+          <p><strong>AH:</strong> : Yeah. </p>
+          
+          <p><strong>TD:</strong> : But now I feel like I'm the same. Or I feel like for me, say like my water bottle or I have those slides or things. and I just think about, like, the places they've been and like how that collects. Like my water bottle.. I've had it in Hong Kong, I've had it in Thailand, I've had it in America, like she's been all over, same with the shoes and that's where I get sentimental. I'm like, these have been with me all the way. </p>
+          
+          <p><strong>AH:</strong> : That is actually adorable because I don't think about things that way. but I see what you mean, and it's like your waterbottle becomes your companion. Like, she knows you. </p>
+          
+          <p><strong>TD:</strong> : Like, okay, I can tell you, this bottle was spick and span. Look at all these little scratches. It's because in my apartment in Hong Kong, there is a beach right at the bottom of it. and there is basically this huge, like um I don't really know what to call it. It was like not sewage, but it was just like a big thing for water to run down. like, there was rain and stuff and it was massive. It's like a canal. not really. I don't know what to call it. But it's like completely overgrown and everything, and then one day my friends and I were climbing along it, and I had this and I was banging around. That's how all of the scratches got here. </p>
+          
+          <p><strong>AH:</strong> : I feel like she kind of felt abused. Like I feel like that was kind of like she neglected. </p>
+          
+          <p><strong>TD:</strong> : She told me she was like, it's totally chill. She's kind of into it. Oh, um, my sister in middle school, she used to go to this camp. And she had this friend who had a water bottle. and her water bottle had so many dents, but  her friend would like to intentionally throw their water bottle around to get a dent, so it would be like, oh, I'm at camp this year. She would go through all the dents and be like, I got this dent here, I got this dent here. It's so weird. That's so interesting. The way people collect memories. </p>
+          
+          <p><strong>AH:</strong> : Yeah. no, that's so true. That's so interesting. </p>
+          
+          <p><strong>TD:</strong> : So yeah, I don't do that because this was $40. </p>
+          
+          <p><strong>AH:</strong> : Yeah. Hydroflaskss are so expensive. I wanted to get one so, I mean, I have one, you guys, I'm ballen like that, yes, but my dad paid for it. That's not the point. The point is that when I got it, my dad gasped at the price of it because it's like $40 for a freaking Hydroflask. It's crazy. </p>
+          
+          <p><strong>TD:</strong> : I mean, it's good though. </p>
+          
+          <p><strong>AH:</strong> :  I love her. but how much are Stanley cups? </p>
+          
+          <p><strong>TD:</strong> : those are like fucking 70,000 dollars. I don't even know. I have a fake Stanley cup at home and I always forget about her, but then I get home and I just like to drink so much I forget about the hydroflask. </p>
+          
+          Ah: Anyways, cool. So did you say you're an intentional, unintentional collector nowadays?</p>
+          
+          <p><strong>TD:</strong> : I think I am a lot less materialistic, actually. I think my way of collecting now is just journaling. I like to write.  I use words.</p>
+          
+          <p><strong>AH:</strong> :  I love that. We've talked about this, but, I can't journal because I get so aware that I'm journaling and it just throws me off. </p>
+          
+          <p><strong>TD:</strong> : But what do you mean by that? Like what are you aware of? </p>
+          
+          <p><strong>AH:</strong> : I'm like, oh my God I'm fucking journaling and no one gives a fuck about it. I don't want anyone to see my writing, </p>
+          
+          <p><strong>TD:</strong> : So you're writing as if someone else is going to read it.</p>
+          
+          <p><strong>AH:</strong> : Yes, but it's like when other people write it, I'm like, oh my God, you're like like you're actually working through your things or like, you know, like making some sort of timeline of your life? </p>
+          
+          <p><strong>TD:</strong> : Yeah. </p>
+          
+          <p><strong>AH:</strong> : You know what I mean? But I'm just like, like I'm journaling and I'm so aware of it, and it's like bitch, what are you journaling about? Like you have nothing interesting, okay? </p>
+          
+           <p><strong>TD:</strong> : But it's not about having something interesting. It's just like Madeline Argy, you know her? </p>
+          
+          <p><strong>AH:</strong> : Yeah, I know her. </p>
+          
+          <p><strong>TD:</strong> : She journals and she does it because she wants to remember specific days. Sometimes I'll just like, even if it's the most boring thing, I'll write it. Have you ever had that thing where you're like, like literally it could be like right now or like on the train and you're like, I wanna remember this exact moment how it is. That's like what journaling is for me, where it's like 50 years from now, I'm going to read everything and be like, wow, I was doing that. </p>
+          
+          <p><strong>AH:</strong> : No, no,  that makes sense because sometimes I'm aware I'm like, this is a benchmark for one year to pass. Also, you should add your journals to this website. </p>
+          
+          <strong>  we start talking about the Met Gala  </strong>
+          
+          <p><strong>TD:</strong> : What the fuck are we talking about? oh, I should add my journalals to the website. </p>
+          
+          <p><strong>AH:</strong> : I mean, I don't know, that's kind of intimate. </p>
+          
+          <p><strong>TD:</strong> : Well, not like the actual writing, I would add the outside. But I already have my objects so no I can’t do that. </p>
+          
+          <p><strong>AH:</strong> : It would be interesting to make a website about people's journalists and it would be anonymous. </p>
+          
+          <p><strong>TD:</strong> : People's journists. </p>
+          
+          <p><strong>AH:</strong> : Um It's hard, you know what, English is my second language.So like the fact that I'm conducting this interview is amazing. I'm conducting. I'm not even conducting the fact that I'm part of this interview is amazing. </p>
+          
+          <p><strong>TD:</strong> : Conducting? Or conducting.</p>
+          
+          <p><strong>AH:</strong> : Okay, what did I say before? Oh, yeah, a website where people can see people's journals. But it's like anonymous. </p>
+          
+          <p><strong>TD:</strong> : I can make a game section where you have to connect the journals to the person who you think it is. </p>
+          
+          <p><strong>AH:</strong> : Wait, that's so good. That's so good. It's crazy. That's really funny. </p>
+          
+          <p><strong>TD:</strong> : I love journaling. </p>
+          
+          Ah: I'm happy for you, but how many times a week do you journal? </p>
+          
+          <p><strong>TD:</strong> : I don't know, but this year already I'm on my third. Okay, I'm on my second. </p>
+          
+          <p><strong>AH:</strong> : Wait, okay, question. Do you journal before you go to sleep or do you journal spontaneously? </p>
+          
+          <p><strong>TD:</strong> : Um, usually it's before I go to sleep because usually I'm just reflecting on things, but sometimes like in the morning I'll wake up and I'm like I want to journal right now. Sometimes it's just spontaneous. I just kind of journal whenever I feel like it. </p>
+          
+          <p><strong>AH:</strong> : I don't reflect before I go to sleep. </p>
+          
+          <p><strong>TD:</strong> : You don't? </p>
+          
+          <p><strong>AH:</strong> : No, I could just go to sleep. </p>
+          
+          <p><strong>TD:</strong> : Oh, cause you're also watching your reels.</p>
+          
+          <p><strong>AH:</strong> : yeah.  it's a really bad. I need at least half an hour of reels. Oh my God, Instagram controls me, it's so bad. I literally need at least half an hour of reels before I go to sleep. </p>
+          
+          <p><strong>TD:</strong> : I know. I've been like so on my reels game. It's just like I have to delete Instagram. Like if if I have Instagram on my phone, bitch, I'm on it,  and and it's like I don’t even feel guilty about it. I'm like, this is what Instagram is for. So I just need to get it out of my face. And just like use it from the computer. </p>
+          
+          <p><strong>AH:</strong> : I agree. Are we done? </p>
+          
+          <p><strong>TD:</strong> : Do you have anything else to say? </p>
+          
+          <p><strong>AH:</strong> : I really don't. </p>
+          
+          <p><strong>TD:</strong> : Okay. </p>
+          
+          <p><strong>AH:</strong> : How long have your other interviews been? </p>
+          
+          <p><strong>TD:</strong> : It's ranged from like 13 minutes to like 30.</p> 
+          
+          <p><strong>AH:</strong> : Okay, perfect. Well, we're almost at 24. Who was 47 minutes?</p>
+          
+          <p><strong>TD:</strong> : Catherine.</p>
+          
+          <p><strong>AH:</strong> : oh damn</p>
+          
+          <p><strong>TD:</strong> :  Okay, now I get to edit this transcript.</p>
+          
+          <p><strong>AH:</strong> :  Great. you wanna do that in my bed? </p>
+          
+          <p><strong>TD:</strong> : Um, sure. bye.</p>
+          `
+
+        },
+        {
           "name": "about",
           "text": "<p>Thinkits&Trinkets is about how our trinkets and collections inform our lives, memories, and nostalgia.</p>"
         }
@@ -605,63 +894,90 @@ const data = [
 
 
 
-            var buttons = document.querySelectorAll('button');
+          //   var buttons = document.querySelectorAll('button');
 
 
-            var input = document.querySelectorAll('.input');
-            var output = document.querySelector('.output');
+          //   var input = document.querySelectorAll('.input');
+          //   var output = document.querySelector('.output');
 
 
-            buttons.forEach((button) => {button.addEventListener('click', () => {
+          //   buttons.forEach((button) => {button.addEventListener('click', () => {
 
-              var name = button.name;
+          //     var name = button.name;
 
-              var matchingEntry = data.find((entry) => {
-                return entry.name == name;
-              });
+          //     var matchingEntry = data.find((entry) => {
+          //       return entry.name == name;
+          //     });
 
-              output.innerHTML = `
-          <p>${matchingEntry.text}</p>`;
-
-
+          //     output.innerHTML = `
+          // <p>${matchingEntry.text}</p>`;
 
 
-            })})
 
-// trinket button
 
-// const trinketsButton = document.querySelector('.trinketsbutton');
-// const trinketDisplay = document.querySelector('.trinket-display');
+          //   })})
 
-// const trinketImage = [
-//   "/assets/car.png",
-//   "/assets/cup.png",
-//   "/assets/gremlin.png",
-//   "/assets/heart.png",
-//   "/assets/keychain.png",
-//   "/assets/knot.png",
-//   "/assets/littleguy.png",
-//   "/assets/picture.png",
-//   "/assets/saab.png"
-// ];
+          var buttons = document.querySelectorAll('button');
+var input = document.querySelectorAll('.input');
+var output = document.querySelector('.output');
+var right = document.querySelector('.right');
 
-// let trinketIndex = 0;
+buttons.forEach((button) => {
+  button.addEventListener('click', () => {
+    var name = button.name;
 
-// if (trinketsButton) {
-//   trinketsButton.addEventListener('click', () => {
-//     let img = trinketDisplay.querySelector('img');
+    var matchingEntry = data.find((entry) => {
+      return entry.name == name;
+    });
 
-//     if (!img) {
-//       img = document.createElement('img');
-//       img.width = 100;
-//       img.alt = 'Trinket';
-//       trinketDisplay.appendChild(img);
-//     }
+    // Build HTML for images
+    var imageHTML = matchingEntry.image
+      .map((img) => `<img src="${img}" alt="${img}" style="max-width: 200px; margin: 10px;">`)
+      .join('');
 
-//     img.src = trinketImage[trinketIndex];
-//     trinketIndex = (trinketIndex + 1) % trinketImage.length;
-//   });
-// }
+    // Inject both image and text content
+    output.innerHTML = `
+      <div class="text">${matchingEntry.text}</div>
+    `;
+   
+      right.innerHTML = `
+      <div class="images">${imageHTML}</div>`;
+  });
+});
+
+
+const bottomDiv = document.querySelector('.bottom');
+let isResizing = false;
+let lastY = 0;
+
+bottomDiv.addEventListener('mousedown', (e) => {
+  if (e.offsetY < 10) {
+    isResizing = true;
+    lastY = e.clientY;
+  }
+});
+
+document.addEventListener('mousemove', (e) => {
+  if (isResizing) {
+    const deltaY = e.clientY - lastY; 
+    const newHeight = bottomDiv.offsetHeight - deltaY;  
+
+
+    if (newHeight > 100) {
+      bottomDiv.style.height = `${newHeight}px`;
+      lastY = e.clientY; 
+    }
+  }
+});
+
+document.addEventListener('mouseup', () => {
+  isResizing = false;
+});
+
+
+
+
+
 
 
 
