@@ -45,19 +45,7 @@ header{
   animation: animationm 10s linear 2s infinite alternate;
 }
 
-@keyframes animationone{
-  0%{transform: translateX(0) translateY(0);}
-  10%{transform: translateX(-5vw) translateY(5vw);}
-  20%{transform: translateX() translateY(10vw);}
-  30%{transform: translateX(-10vw) translateY(15vw);}
-  40%{transform: translateX() translateY(20vw);}
-  50%{transform: translateX(-15vw) translateY(25vw);}
-  60%{transform: translateX(-15vw) translateY(30vw);}
-  70%{transform: translateX() translateY(35vw);}
-  80%{transform: translateX(5) translateY(40vw);}
-  90%{transform: translateX(10) translateY(45vw);}
-  100%{transform: translateX(20) translateY(50vw);}
-}
+
 
 
 
